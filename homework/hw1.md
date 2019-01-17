@@ -1,8 +1,3 @@
----
-title: CS 295B Data Privacy
-layout: default
----
-
 # Assignment 1
 
 **Solve the exercises in a single Racket source file, and submit your
