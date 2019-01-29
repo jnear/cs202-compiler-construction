@@ -71,7 +71,7 @@ For questions about Racket, course material, or assignments, post to
 Piazza. Feel free to answer others' questions, but please do not share
 code or solutions. You can access Piazza here:
 
-- [CS295F Piazza](piazza.com/uvm/spring2019/cs295f)
+- [CS295F Piazza](https://piazza.com/uvm/spring2019/cs295f)
 
 Other resources:
 
