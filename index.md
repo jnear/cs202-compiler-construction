@@ -1,5 +1,5 @@
 ---
-title: CS 295B Data Privacy
+title: CS 295F: Compiler Construction
 layout: default
 ---
 
@@ -66,6 +66,12 @@ The primary textbook we will use for this course is:
 
 - [Essentials of Compilation](https://www.dropbox.com/s/ktdw8j0adcc44r0/book.pdf?dl=1)  
   Jeremy G. Siek and Ryan R. Newton.
+
+For questions about Racket, course material, or assignments, post to
+Piazza. Feel free to answer others' questions, but please do not share
+code or solutions. You can access Piazza here:
+
+- [CS295F Piazza](piazza.com/uvm/spring2019/cs295f)
 
 Other resources:
 
