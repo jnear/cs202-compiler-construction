@@ -5,6 +5,13 @@ layout: default
 
 # UVM CS295F: Compiler Construction (Spring 2019)
 
+## Announcements
+
+- **1/29/19**: I've updated the link to the course textbook to point
+    at the [revised
+    version](https://github.com/jnear/cs295-compiler-construction/blob/master/book.pdf),
+    which has important changes to the `C0` language.
+
 ## Administrative
 
 - **Lecture**: Tuesday and Thursday, 2:50pm - 4:05pm, Kalkin 325
@@ -64,7 +71,7 @@ Please **do not** buy any books for this course. All required reference material
 
 The primary textbook we will use for this course is:
 
-- [Essentials of Compilation](https://www.dropbox.com/s/ktdw8j0adcc44r0/book.pdf?dl=1)  
+- [Essentials of Compilation](https://github.com/jnear/cs295-compiler-construction/blob/master/book.pdf)  
   Jeremy G. Siek and Ryan R. Newton.
 
 For questions about Racket, course material, or assignments, post to
