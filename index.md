@@ -191,7 +191,7 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | Assignment | Topics Covered                    | Text Chapter  | Due Date         |
 | ----------:| --------------------------------- | ------------- | ---------------- |
 | 1          | [Interpreters & partial evaluation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 28, 11:59pm  |
-| 2          | Compiling R_1 to x86              | Chapter 2     | Feb 11, 11:59pm  |
+| 2          | [Compiling R_1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)              | Chapter 2     | Feb 11, 11:59pm  |
 | 3          | Using the Stack                   | Chapter 2     | Feb 18, 11:59pm  |
 | 4          | Register Allocation               | Chapter 3     | Mar 4,  11:59pm  |
 | 5          | Booleans and Control Flow         | Chapter 4     | Mar 18, 11:59pm  |
