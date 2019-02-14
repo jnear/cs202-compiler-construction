@@ -204,14 +204,13 @@ lecture, and then turn your notes in to the instructor personally at
 the end of the talk. If you attend all lectures you will receive a
 ~3.5% bump to your final grade.
 
-Guest Lecture 1: Tuesday, February 12, 12–1pm, John Dewey Lounge(Systems Security)
-Guest Lecture 2: Thursday, February 14, 12–1pm, Perkins 101 (CS Theory)
-Guest Lecture 3: Tuesday, February 19, 12–1pm, John Dewey Lounge (Systems Security)
-Guest Lecture 4: ??? (CS Theory), TBD
-Guest Lecture 5: Friday, February 22, 12–1pm, John Dewey Lounge (Systems Security)
-Guest Lecture 6: Tuesday, February 26, 1–2pm, John Dewey Lounge (Systems Security) (CLASS CANCELED)
-Guest Lecture 7: ??? (CS Theory)
-Guest Lecture 8: Monday, March 01, 12–1pm, John Dewey Lounge (Systems Security)
+ - Guest Lecture 1: Tuesday, February 12, 12–1pm, John Dewey Lounge(Systems Security)
+ - Guest Lecture 2: Thursday, February 14, 12–1pm, Perkins 101 (CS Theory)
+ - Guest Lecture 3: Tuesday, February 19, 12–1pm, John Dewey Lounge (Systems Security)
+ - Guest Lecture 4: Friday, February 22, 12–1pm, John Dewey Lounge (Systems Security)
+ - Guest Lecture 5: Tuesday, February 26, 1–2pm, John Dewey Lounge (Systems Security)
+ - Guest Lecture 6: Thursday, February 28, 12-1pm, Perkins 101 (CS Theory)
+ - Guest Lecture 7: Monday, March 01, 12–1pm, John Dewey Lounge (Systems Security)
 
 # Assignments
 
