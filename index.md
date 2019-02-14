@@ -194,6 +194,24 @@ integrity misconduct will be treated according to [UVM's Code of
 Academic
 Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
+## Guest Lectures & Extra Credit
+
+During the semester there will be ~7 guest lectures from visiting
+faculty. I will give 0.5% extra credit towards your final grade for
+each of these lectures that you attend. To receive extra credit, you
+must bring a notepad to the lecture, take notes in person during the
+lecture, and then turn your notes in to the instructor personally at
+the end of the talk. If you attend all lectures you will receive a
+~3.5% bump to your final grade.
+
+Guest Lecture 1: Tuesday, February 12, 12–1pm, John Dewey Lounge(Systems Security)
+Guest Lecture 2: Thursday, February 14, 12–1pm, Perkins 101 (CS Theory)
+Guest Lecture 3: Tuesday, February 19, 12–1pm, John Dewey Lounge (Systems Security)
+Guest Lecture 4: ??? (CS Theory), TBD
+Guest Lecture 5: Friday, February 22, 12–1pm, John Dewey Lounge (Systems Security)
+Guest Lecture 6: Tuesday, February 26, 1–2pm, John Dewey Lounge (Systems Security) (CLASS CANCELED)
+Guest Lecture 7: ??? (CS Theory)
+Guest Lecture 8: Monday, March 01, 12–1pm, John Dewey Lounge (Systems Security)
 
 # Assignments
 
@@ -203,8 +221,8 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | 2          | [Compiling R_1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)              | Chapter 2     | Feb 11, 11:59pm  |
 | 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 18, 11:59pm  |
 | 4          | Register Allocation               | Chapter 3     | Mar 4,  11:59pm  |
-| 5          | Booleans and Control Flow         | Chapter 4     | Mar 18, 11:59pm  |
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
+| 5          | Booleans and Control Flow         | Chapter 4     | Mar 18, 11:59pm  |
 | 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 1,  11:59pm  |
 | 7          | Compiling Functions               | Chapter 6     | Apr 15, 11:59pm  |
 | 8          | Compiling First-Class Functions   | Chapter 7     | Apr 22, 11:59pm  |
