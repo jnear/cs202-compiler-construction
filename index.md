@@ -7,6 +7,9 @@ layout: default
 
 ## Announcements
 
+- **2/17/19**: I've extended the due date for Assignment 3 to Tuesday,
+    February 19, due to the holiday on Monday.
+
 - **2/13/19**: [Assignment 3](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md) is posted.
 
 - **1/29/19**: I've updated the link to the course textbook to point
@@ -218,7 +221,7 @@ the end of the talk. If you attend all lectures you will receive a
 | ----------:| --------------------------------- | ------------- | ---------------- |
 | 1          | [Interpreters & partial evaluation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 28, 11:59pm  |
 | 2          | [Compiling R_1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)              | Chapter 2     | Feb 11, 11:59pm  |
-| 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 18, 11:59pm  |
+| 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 19, 11:59pm  |
 | 4          | Register Allocation               | Chapter 3     | Mar 4,  11:59pm  |
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
 | 5          | Booleans and Control Flow         | Chapter 4     | Mar 18, 11:59pm  |
