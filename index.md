@@ -224,8 +224,8 @@ the end of the talk. If you attend all lectures you will receive a
 | 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 19, 11:59pm  |
 | 4          | Register Allocation               | Chapter 3     | Mar 4,  11:59pm  |
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
-| 5          | Booleans and Control Flow         | Chapter 4     | Mar 18, 11:59pm  |
-| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 1,  11:59pm  |
+| 5          | Booleans and Control Flow         | Chapter 4     | Mar 25, 11:59pm  |
+| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 8,  11:59pm  |
 | 7          | Compiling Functions               | Chapter 6     | Apr 15, 11:59pm  |
 | 8          | Compiling First-Class Functions   | Chapter 7     | Apr 22, 11:59pm  |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
@@ -242,20 +242,20 @@ the end of the talk. If you attend all lectures you will receive a
 | Thu, Jan 31 | Compiling R1 I                      |              |
 | Tue, Feb 05 | Compiling R1 II                     |              |
 | Thu, Feb 07 | Using the stack I                   |              |
-| Tue, Feb 12 | Using the stack II                  | A3 Released  |
-| Thu, Feb 14 | Register allocation I               |              |
-| Tue, Feb 19 | Register allocation II              |              |
-| Thu, Feb 21 | Booleans & Typechecking             | A4 Released  |
-| Tue, Feb 26 | Compiling Booleans                  |              |
+| Tue, Feb 12 | Random testing                      | A3 Released  |
+| Thu, Feb 14 | Using the stack II                  |              |
+| Tue, Feb 19 | Register allocation I               |              |
+| Thu, Feb 21 | Register allocation II              | A4 Released  |
+| Tue, Feb 26 | Booleans & Typechecking             |              |
 | Thu, Feb 28 | REVIEW FOR MIDTERM                  |              |
 | Tue, Mar 05 | NO CLASS: Town Meeting Day          |              |
 | Thu, Mar 07 | MIDTERM                             | A5 Released  |
 | Tue, Mar 12 | NO CLASS: Spring Break              |              |
 | Thu, Mar 14 | NO CLASS: Spring Break              |              |
-| Tue, Mar 19 | Tuples & Garbage collection I       |              |
-| Thu, Mar 21 | Tuples & Garbage collection II      | A6 Released  |
-| Tue, Mar 26 | NO CLASS (TBD)                      |              |
-| Thu, Mar 28 | NO CLASS (TBD)                      |              |
+| Tue, Mar 19 | Compiling Booleans                  |              |
+| Thu, Mar 21 | Tuples & Garbage collection I       | A6 Released  |
+| Tue, Mar 26 | Tuples & Garbage collection II      |              |
+| Thu, Mar 28 | Tuples & Garbage collection III     |              |
 | Tue, Apr 02 | Compiling Functions I               | A7 Released  |
 | Thu, Apr 04 | Compiling Functions II              |              |
 | Tue, Apr 09 | First-class functions               |              |
