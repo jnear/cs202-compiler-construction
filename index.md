@@ -215,7 +215,7 @@ the end of the talk. If you attend all lectures you will receive a
  - Guest Lecture 4: Friday, February 22, 12–1pm, Perkins 101 (Systems Security)
  - Guest Lecture 5: Tuesday, February 26, **1–2pm**, John Dewey Lounge (Systems Security)
  - Guest Lecture 6: Thursday, February 28, 12-1pm, Perkins 101 (CS Theory)
- - Guest Lecture 7: Monday, March 01, 12–1pm, Perkins 101 (Systems Security)
+ - Guest Lecture 7: Friday, March 01, 12–1pm, Perkins 101 (Systems Security)
 
 # Assignments
 
