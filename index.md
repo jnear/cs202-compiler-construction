@@ -91,6 +91,7 @@ Other resources:
 
 - Download the [Racket Distribution](https://download.racket-lang.org/)
 - Code from lectures is [available on Github](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures)
+- The [midterm review sheet](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/midterm-review.md) is available
 
 # Policies
 
