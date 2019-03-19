@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **3/19/19**: [Assignment 5](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md) is posted, and the schedule has been adjusted for this assignment and future lectures.
+
 - **2/21/19**: [Assignment 4](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md) is posted.
 
 - **2/17/19**: I've extended the due date for Assignment 3 to Tuesday,
@@ -227,10 +229,10 @@ the end of the talk. If you attend all lectures you will receive a
 | 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 19, 11:59pm  |
 | 4          | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)               | Chapter 3     | Mar 4,  11:59pm  |
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
-| 5          | Booleans and Control Flow         | Chapter 4     | Mar 25, 11:59pm  |
-| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 8,  11:59pm  |
-| 7          | Compiling Functions               | Chapter 6     | Apr 15, 11:59pm  |
-| 8          | Compiling First-Class Functions   | Chapter 7     | Apr 22, 11:59pm  |
+| 5          | [Booleans and Control Flow](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)         | Chapter 4     | Apr 1, 11:59pm  |
+| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 15, 11:59pm  |
+| 7          | Compiling Functions               | Chapter 6     | Apr 21, 11:59pm  |
+| 8          | Compiling First-Class Functions   | Chapter 7     | TBD              |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
 
 # Class Schedule
@@ -252,21 +254,21 @@ the end of the talk. If you attend all lectures you will receive a
 | Tue, Feb 26 | Booleans & Typechecking             |              |
 | Thu, Feb 28 | REVIEW FOR MIDTERM                  |              |
 | Tue, Mar 05 | NO CLASS: Town Meeting Day          |              |
-| Thu, Mar 07 | MIDTERM                             | A5 Released  |
+| Thu, Mar 07 | MIDTERM                             |              |
 | Tue, Mar 12 | NO CLASS: Spring Break              |              |
 | Thu, Mar 14 | NO CLASS: Spring Break              |              |
-| Tue, Mar 19 | Compiling Booleans                  |              |
-| Thu, Mar 21 | Tuples & Garbage collection I       | A6 Released  |
-| Tue, Mar 26 | Tuples & Garbage collection II      |              |
-| Thu, Mar 28 | Tuples & Garbage collection III     |              |
-| Tue, Apr 02 | Compiling Functions I               | A7 Released  |
-| Thu, Apr 04 | Compiling Functions II              |              |
-| Tue, Apr 09 | First-class functions               |              |
-| Thu, Apr 11 | Compiling first-class functions I   | A8 Released  |
-| Tue, Apr 16 | Compiling first-class functions II  |              |
-| Thu, Apr 18 | Compiling first-class functions III |              |
-| Tue, Apr 23 | Dynamically-typed languages         |              |
-| Thu, Apr 25 | Objects                             |              |
+| Tue, Mar 19 | Compiling Booleans I                | A5 Released  |
+| Thu, Mar 21 | Compiling Booleans II               |              |
+| Tue, Mar 26 | Tuples & Garbage collection I       | A6 Released  |
+| Thu, Mar 28 | Tuples & Garbage collection II      |              |
+| Tue, Apr 02 | Tuples & Garbage collection III     |              |
+| Thu, Apr 04 | Compiling Functions I               | A7 Released  |
+| Tue, Apr 09 | Compiling Functions II              |              |
+| Thu, Apr 11 | Compiling Functions III (tco)       |              |
+| Tue, Apr 16 | Compiling first-class functions I   | A8 Released  |
+| Thu, Apr 18 | Compiling first-class functions II  |              |
+| Tue, Apr 23 | Compiling first-class functions III |              |
+| Thu, Apr 25 | Dynamic typing                      |              |
 | Tue, Apr 30 | Project Presentations I             |              |
 | Thu, May 02 | Project Presentations II            |              |
 | Thu, May 09 | FINAL EXAM (1:30pm, Kalkin 325)     |              |
