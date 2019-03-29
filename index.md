@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **3/28/19**: Office hours have been changed to split between Monday and Friday.
+
 - **3/19/19**: [Assignment 5](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md) is posted, and the schedule has been adjusted for this assignment and future lectures.
 
 - **2/21/19**: [Assignment 4](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md) is posted.
@@ -25,7 +27,7 @@ layout: default
 
 - **Lecture**: Tuesday and Thursday, 2:50pm - 4:05pm, Kalkin 325
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Fridays, 2:00pm - 4:00pm, Votey 317
+- **Office hours**: Mondays, 11am-noon, and Fridays, 3:00pm - 4:00pm; Votey 317
 
 ## Course Description
 
@@ -230,9 +232,9 @@ the end of the talk. If you attend all lectures you will receive a
 | 4          | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)               | Chapter 3     | Mar 4,  11:59pm  |
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
 | 5          | [Booleans and Control Flow](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)         | Chapter 4     | Apr 1, 11:59pm  |
-| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 15, 11:59pm  |
-| 7          | Compiling Functions               | Chapter 6     | Apr 21, 11:59pm  |
-| 8          | Compiling First-Class Functions   | Chapter 7     | TBD              |
+| 6          | Tuples and Garbage Collection     | Chapter 5     | Apr 10, 11:59pm  |
+| 7          | Compiling Functions               | Chapter 6     | Apr 17, 11:59pm  |
+| 8          | Compiling First-Class Functions   | Chapter 7     | Apr 24, 11:59pm  |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
 
 # Class Schedule
