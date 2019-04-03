@@ -235,7 +235,7 @@ the end of the talk. If you attend all lectures you will receive a
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
 | 5          | [Booleans and Control Flow](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)         | Chapter 4     | Apr 1, 11:59pm  |
 | 6          | [Tuples and Garbage Collection](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md)     | Chapter 5     | Apr 15, 11:59pm  |
-| 7          | Compiling Functions               | Chapter 6     | Apr 17, 11:59pm  |
+| 7          | Compiling Functions               | Chapter 6     | Apr 22, 11:59pm  |
 | 8          | ~~Compiling First-Class Functions~~   | Chapter 7     | *cancelled*  |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
 
