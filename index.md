@@ -237,6 +237,7 @@ the end of the talk. If you attend all lectures you will receive a
 | 6          | [Tuples and Garbage Collection](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md)     | Chapter 5     | Apr 15, 11:59pm  |
 | 7          | Compiling Functions               | Chapter 6     | Apr 22, 11:59pm  |
 | 8          | ~~Compiling First-Class Functions~~   | Chapter 7     | *cancelled*  |
+|            | Final Project                     |               | *See below*      |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
 
 # Class Schedule
@@ -263,16 +264,74 @@ the end of the talk. If you attend all lectures you will receive a
 | Thu, Mar 14 | NO CLASS: Spring Break              |              |
 | Tue, Mar 19 | Compiling Booleans I                | A5 Released  |
 | Thu, Mar 21 | Compiling Booleans II               |              |
-| Tue, Mar 26 | Tuples & Garbage collection I       | A6 Released  |
-| Thu, Mar 28 | Tuples & Garbage collection II      |              |
+| Tue, Mar 26 | Tuples & Garbage collection I       |              |
+| Thu, Mar 28 | Tuples & Garbage collection II      | A6 Released  |
 | Tue, Apr 02 | Tuples & Garbage collection III     |              |
-| Thu, Apr 04 | Compiling Functions I               | A7 Released  |
+| Thu, Apr 04 | Compiling Functions I               |              |
 | Tue, Apr 09 | Compiling Functions II              |              |
-| Thu, Apr 11 | Compiling Functions III (tco)       |              |
-| Tue, Apr 16 | Compiling first-class functions I   | A8 Released  |
+| Thu, Apr 11 | Compiling Functions III (tco)       | A7 Released  |
+| Tue, Apr 16 | Compiling first-class functions I   |              |
 | Thu, Apr 18 | Compiling first-class functions II  |              |
 | Tue, Apr 23 | Compiling first-class functions III |              |
 | Thu, Apr 25 | Dynamic typing                      |              |
 | Tue, Apr 30 | Project Presentations I             |              |
 | Thu, May 02 | Project Presentations II            |              |
 | Thu, May 09 | FINAL EXAM (1:30pm, Kalkin 325)     |              |
+
+# Final Projects
+
+## Project Ideas
+
+  * anonymous functions
+  * cons lists
+    * with vectors
+    * improved tags
+    * quasiquote / match
+  * vectors with non-statically-known indexing (runtime checking)
+  * objects
+    * records with named fields (from vectors)
+    * functions in fields (methods w/ dynamic dispatch)
+    * classes & inheritance
+
+More complicated:
+
+  * loops and loop optimization
+  * lazy evaluation
+  * procedure inlining
+  * continuations, exceptions
+  * I/O
+  * foreign function interface
+
+Very tough: 
+
+  * self hosting
+  * macros
+  * alternative garbage collector
+  * multi-threading, fork join, futures, implicit parallelism
+
+## Requirements
+
+The goal of the final project is for you to design and implement your own compiler extension. Final projects will be completed in groups of 1-3. The deliverables for the project will be as follows:
+
+- A *project proposal* of 1 paragraph, describing:
+  - Who is in your group
+  - A description of your desired compiler feature (language feature or compiler extension - e.g. "add objects and class definitions with inheritance")
+  - A description of the *most scaled-back feasible version* of your compiler feature - e.g. "use vectors containing values and functions to represent objects")
+  - A representative test case to demonstrate your new feature
+- Your *implementation*, as an extension to the course compiler
+  - Include at least 10 representative test cases demonstrating your new feature
+- A *README* of at most 1 page, describing the approach you took in your implementation, and features you planned but did not implement
+- A *project presentation* of about 10 minutes, including
+  - A description of the new feature, including a test case
+  - Your implementation approach
+  - A description of challenges you encountered / parts you were not able to implement
+
+## Schedule & Grading
+
+The final project is worth 14% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
+
+| Deliverable             | Due Date            | Grade Percent | Turn In  |
+| -----------------------:| ------------------- | ------------- | -------- |
+| Project Proposal        | 4/15/19 at 11:59pm  | 10%           | By email |
+| Implementation & README | 5/6/19 at 11:59pm   | 60%           | By email |
+| Project Presentations   | 5/2/19 in class     | 30%           | In class |
