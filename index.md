@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/11/19**: I have posted the [typechecker for R4](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/lecture18.rkt) that we covered in class, in the "lectures" directory on Github.
+
 - **4/3/19**: [Assignment 6](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) is posted.
 
 - **3/28/19**: Office hours have been changed to split between Monday and Friday.
