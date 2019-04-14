@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/14/19**: Project proposals are delayed by one day so that they're not due on the same day as A6.
+
 - **4/3/19**: [Assignment 6](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) is posted.
 
 - **3/28/19**: Office hours have been changed to split between Monday and Friday.
@@ -332,6 +334,6 @@ The final project is worth 14% of your final grade. The schedule for final proje
 
 | Deliverable             | Due Date            | Grade Percent | Turn In  |
 | -----------------------:| ------------------- | ------------- | -------- |
-| Project Proposal        | 4/15/19 at 11:59pm  | 10%           | By email |
+| Project Proposal        | 4/16/19 at 11:59pm  | 10%           | By email |
 | Implementation & README | 5/6/19 at 11:59pm   | 60%           | By email |
 | Project Presentations   | 5/2/19 in class     | 30%           | In class |
