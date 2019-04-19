@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/19/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is now due on Wednesday, April 24, at 11:59pm.
+
 - **4/15/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is posted.
 
 - **4/14/19**: Project proposals are delayed by one day so that they're not due on the same day as A6.
@@ -241,7 +243,7 @@ the end of the talk. If you attend all lectures you will receive a
 | -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
 | 5          | [Booleans and Control Flow](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)         | Chapter 4     | Apr 1, 11:59pm  |
 | 6          | [Tuples and Garbage Collection](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md)     | Chapter 5     | Apr 15, 11:59pm  |
-| 7          | [Compiling Functions](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)               | Chapter 6     | Apr 22, 11:59pm  |
+| 7          | [Compiling Functions](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)               | Chapter 6     | Apr 24, 11:59pm  |
 | 8          | ~~Compiling First-Class Functions~~   | Chapter 7     | *cancelled*  |
 |            | Final Project                     |               | *See below*      |
 | -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
