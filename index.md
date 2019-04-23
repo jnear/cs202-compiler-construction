@@ -279,11 +279,11 @@ the end of the talk. If you attend all lectures you will receive a
 | Tue, Apr 09 | Compiling Functions II              |              |
 | Thu, Apr 11 | Compiling Functions III (tco)       | A7 Released  |
 | Tue, Apr 16 | Compiling first-class functions I   |              |
-| Thu, Apr 18 | Compiling first-class functions II  |              |
-| Tue, Apr 23 | Compiling first-class functions III |              |
-| Thu, Apr 25 | Dynamic typing                      |              |
-| Tue, Apr 30 | Project Presentations I             |              |
-| Thu, May 02 | Project Presentations II            |              |
+| Thu, Apr 18 | Dynamic typing                      |              |
+| Tue, Apr 23 | Objects & Optimizations             |              |
+| Thu, Apr 25 | Binary & instruction sets           |              |
+| Tue, Apr 30 | Review for final exam               |              |
+| Thu, May 02 | Project presentations               |              |
 | Thu, May 09 | FINAL EXAM (1:30pm, Kalkin 325)     |              |
 
 # Final Projects
