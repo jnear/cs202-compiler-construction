@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/29/19**: I have posted the [review sheet for the final exam](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/final-review.md), as well as additional notes from the last few lectures in the [lectures directory](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/).
+
 - **4/19/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is now due on Wednesday, April 24, at 11:59pm.
 
 - **4/15/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is posted.
@@ -106,6 +108,7 @@ Other resources:
 - Download the [Racket Distribution](https://download.racket-lang.org/)
 - Code from lectures is [available on Github](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/midterm-review.md) is available
+- The [final review sheet](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/final-review.md) is available
 
 # Policies
 
