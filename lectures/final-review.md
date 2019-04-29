@@ -82,6 +82,7 @@ Consider the following heap state (root stack and from-space):
 
 5. Circle the *tail calls* in the following program.
 
+```
     (define (fact [x : Integer]) : Integer
       (if (eq? x 0)
           1
@@ -93,9 +94,11 @@ Consider the following heap state (root stack and from-space):
           (+ y (* (+ x -1) y))))
     
     (fact 5)
+```
 
 Consider the following program in R4:
 
+```
     (define (fn [a : Integer]
                 [b : Integer]
                 [c : Integer]
@@ -107,38 +110,41 @@ Consider the following program in R4:
       (+ a (+ b (+ c (+ d (+ e (+ f (+ g h))))))))
 
     (fn 1 2 3 4 5 6 7 8)
+```
 
 6. Write the output of the `limit-functions` pass on this program (you may omit `has-type` forms).
 
 Consider the following x86 program.
 
-add1start:
-  movq %rcx, %rax
-  addq $1, %rax
-  jmp add1conclusion
-add1:
-  pushq %rbp
-  movq %rsp, rbp
-  jmp add1start
-add1conclusion:
-  popq %rbp
-  retq
-
-mainstart:
-  leaq add1(%rip), %rdx
-  movq $5, %rcx
-  movq %rdx, %rax
-  popq %rbp
-  jmp *%rax
-
-.globl main
-main:
-  pushq %rbp
-  movq %rsp, %rbp
-  jmp mainstart
-mainconclusion:
-  popq %rbp
-  retq
+```
+    add1start:
+      movq %rcx, %rax
+      addq $1, %rax
+      jmp add1conclusion
+    add1:
+      pushq %rbp
+      movq %rsp, rbp
+      jmp add1start
+    add1conclusion:
+      popq %rbp
+      retq
+    
+    mainstart:
+      leaq add1(%rip), %rdx
+      movq $5, %rcx
+      movq %rdx, %rax
+      popq %rbp
+      jmp *%rax
+    
+    .globl main
+    main:
+      pushq %rbp
+      movq %rsp, %rbp
+      jmp mainstart
+    mainconclusion:
+      popq %rbp
+      retq
+```
 
 7. Write the original R4 program for which this x86 program is (roughly) the output of our compiler.
 
@@ -149,10 +155,12 @@ mainconclusion:
 
 Consider the following program:
 
+```
     (let ([y 10])
       (let ([f (lambda (x) y)])
         (let ([y 20])
           (f 5))))
+```
 
 9. What is the value of this program under *dynamic scope*?
 
@@ -164,9 +172,11 @@ Consider the following program:
 
 Consider the following program:
 
+```
     (if #t
         (+ 1 2)
         (+ #f 3))
+```
 
 12. Does this program have a *static* type, according to our R4 typechecker?
 
@@ -174,18 +184,23 @@ Consider the following program:
 
 14. Convert this program to one which has a static type, according to the R6 typechecker. Use `inject` and `project`.
 
+```
     (if #t
         (+ 1 2)
         (+ #f 3))
+```
 
 15. What R6 program corresponds to the following assembly code?
 
+```
     movq $1, %rdx
     saql $3, %rdx
     orq  $4, %rdx
+```
 
 16. What R6 program corresponds to the following assembly code? Assume that variable `x` of type `Any` has been placed in `%rcx`.
 
+```
     block1:
       andq $7, %rcx
       cmpq $1, %rcx
@@ -195,6 +210,7 @@ Consider the following program:
     block2:
       movq %rcx, %rbx
       sarq $3, %rbx
+```
 
 ## Objects
 
@@ -216,6 +232,7 @@ Consider the following program in Racket:
 
 17. Write the method table, represented using a vector, for the `rectangle%` class.
 
+```
     (define rectangle-method-table
       (vector
       
@@ -223,6 +240,7 @@ Consider the following program in Racket:
       
       
       )
+```
 
 18. Compile this program into one which does not use Racket's object system, but instead implements dynamic dispatch via a method table stored in a vector.
 
