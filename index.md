@@ -1,60 +1,34 @@
 ---
-title: CS 295F: Compiler Construction
+title: CS 202: Compiler Construction
 layout: default
 ---
 
-# UVM CS295F: Compiler Construction (Spring 2019)
+# UVM CS202: Compiler Construction (Spring 2020)
 
 ## Announcements
 
-- **4/29/19**: I have posted the [review sheet for the final exam](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/final-review.md), as well as additional notes from the last few lectures in the [lectures directory](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/).
-
-- **4/19/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is now due on Wednesday, April 24, at 11:59pm.
-
-- **4/15/19**: [Assignment 7](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md) is posted.
-
-- **4/14/19**: Project proposals are delayed by one day so that they're not due on the same day as A6.
-
-- **4/11/19**: I have posted the [typechecker for R4](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/lecture18.rkt) that we covered in class, in the "lectures" directory on Github.
-
-- **4/3/19**: [Assignment 6](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) is posted.
-
-- **3/28/19**: Office hours have been changed to split between Monday and Friday.
-
-- **3/19/19**: [Assignment 5](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md) is posted, and the schedule has been adjusted for this assignment and future lectures.
-
-- **2/21/19**: [Assignment 4](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md) is posted.
-
-- **2/17/19**: I've extended the due date for Assignment 3 to Tuesday,
-    February 19, due to the holiday on Monday.
-
-- **2/13/19**: [Assignment 3](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md) is posted.
-
-- **1/29/19**: I've updated the link to the course textbook to point
-    at the [revised
-    version](https://github.com/jnear/cs295-compiler-construction/blob/master/book.pdf),
-    which has important changes to the `C0` language.
+None yet.
 
 ## Administrative
 
-- **Lecture**: Tuesday and Thursday, 2:50pm - 4:05pm, Kalkin 325
+- **Lecture**: Monday & Wednesday, 2:50-4:05pm, Votey 207
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Mondays, 11am-noon, and Fridays, 3:00pm - 4:00pm; Votey 317
+- **Office hours**: TBA, Innovation E458
 
 ## Course Description
 
 This course covers the design and construction of compilers. You'll
-learn learn how to translate Racket, a dialect of Scheme, all the way
-into Intel x86 assembly language.
+learn how to translate a high-level, garbage-collected programming
+language all the way into Intel x86 assembly language.
 
 Instead of learning about each phase of the compilation process
-sequentially, we'll start by compiling a tiny subset of Racket
-directly into assembly code. Each week, we'll add a new feature to our
-language, and learn about all the phases needed to compile that
-feature into assembly. At each step, you'll have a functioning
-compiler that can run real code; by the end of the course, your
-compiler will work on a large subset of Racket including first-class
-functions.
+sequentially, we'll start by compiling a tiny subset of the target
+language directly into assembly code. Each week, we'll add a new
+feature to our language, and learn about all the phases needed to
+compile that feature into assembly. At each step, you'll have a
+functioning compiler that can run real code; by the end of the course,
+your compiler will work on a realistic programming language including
+first-class functions.
 
 Topics covered include:
 
@@ -97,15 +71,15 @@ The primary textbook we will use for this course is:
 - [Essentials of Compilation](https://github.com/jnear/cs295-compiler-construction/blob/master/book.pdf)  
   Jeremy G. Siek and Ryan R. Newton.
 
-For questions about Racket, course material, or assignments, post to
+For questions about Haskell, course material, or assignments, post to
 Piazza. Feel free to answer others' questions, but please do not share
 code or solutions. You can access Piazza here:
 
-- [CS295F Piazza](https://piazza.com/uvm/spring2019/cs295f)
+- [CS202 Piazza](TBA)
 
 Other resources:
 
-- Download the [Racket Distribution](https://download.racket-lang.org/)
+- Set up Haskell Stack (TBA)
 - Code from lectures is [available on Github](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/midterm-review.md) is available
 - The [final review sheet](https://github.com/jnear/cs295-compiler-construction/tree/master/lectures/final-review.md) is available
@@ -116,7 +90,7 @@ Other resources:
 
 Your grade for the course will be determined as follows:
 
-- 8 homework assignments (7% each; 56% total)
+- 7 homework assignments (8% each; 56% total)
 - midterm exam (15%)
 - final exam (15%)
 - final project (14%)
@@ -160,14 +134,24 @@ points. This percentage is translated into a letter grade as follows:
 
 ## Assignments
 
-Assignments will generally be due bi-weekly on Mondays at 11:59pm,
+Assignments will generally be due weekly on Sundays at 11:59pm,
 with breaks for the midterm exam and final project. Your assignment
 will be graded using a test suite which will be made available one day
 before the assignment due date.
 
-Assignments may be turned in late for a penalty of 10% per
-day after the deadline. Assignments more than 10 days late will not be
-accepted.
+Late assignments will **not** be accepted. Each assignment builds
+extensively on the last one, and mastering the assignment material is
+crucial to success in this course. If you fall behind on completing
+the assignments, it will be extremely difficult to catch up.
+
+Therefore, on Monday after each assignment due date, we will discuss
+that assignment's solution in lecture, and the complete solution will
+be made available on Blackboard. I encourage students to take
+advantage of the official solutions to avoid falling behind.
+
+Partial credit will be (extensively) given on assignments. I encourage
+you to submit *something* for every assignment, even if your solution
+is far from complete.
 
 Each assignment includes a *challenge exercise*, which generally
 involves extending your compiler with extra features or optimization
@@ -219,75 +203,69 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
 ## Guest Lectures & Extra Credit
 
-During the semester there will be ~7 guest lectures from visiting
+During the semester there will be ~3 guest lectures from visiting
 faculty. I will give 0.5% extra credit towards your final grade for
 each of these lectures that you attend. To receive extra credit, you
 must bring a notepad to the lecture, take notes in person during the
 lecture, and then turn your notes in to the instructor personally at
-the end of the talk. If you attend all lectures you will receive a
-~3.5% bump to your final grade.
+the end of the talk.
 
- - Guest Lecture 1: Tuesday, February 12, 12–1pm, John Dewey Lounge(Systems Security)
- - Guest Lecture 2: Thursday, February 14, 12–1pm, Perkins 101 (CS Theory)
- - Guest Lecture 3: Tuesday, February 19, 12–1pm, John Dewey Lounge (Systems Security)
- - Guest Lecture 4: Friday, February 22, 12–1pm, Perkins 101 (Systems Security)
- - Guest Lecture 5: Tuesday, February 26, **1–2pm**, John Dewey Lounge (Systems Security)
- - Guest Lecture 6: Thursday, February 28, 12-1pm, Perkins 101 (CS Theory)
- - Guest Lecture 7: Friday, March 01, 12–1pm, Perkins 101 (Systems Security)
+ - Guest Lecture 1: TBA
+ - Guest Lecture 2: TBA
+ - Guest Lecture 3: TBA
 
 # Assignments
 
-| Assignment | Topics Covered                    | Text Chapter  | Due Date         |
-| ----------:| --------------------------------- | ------------- | ---------------- |
-| 1          | [Interpreters & partial evaluation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 28, 11:59pm  |
-| 2          | [Compiling R_1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)              | Chapter 2     | Feb 11, 11:59pm  |
-| 3          | [Using the Stack](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 2     | Feb 19, 11:59pm  |
-| 4          | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)               | Chapter 3     | Mar 4,  11:59pm  |
-| -          | Midterm Exam                      | 1 - 4         | Mar 7 (in class) |
-| 5          | [Booleans and Control Flow](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)         | Chapter 4     | Apr 1, 11:59pm  |
-| 6          | [Tuples and Garbage Collection](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md)     | Chapter 5     | Apr 15, 11:59pm  |
-| 7          | [Compiling Functions](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)               | Chapter 6     | Apr 24, 11:59pm  |
-| 8          | ~~Compiling First-Class Functions~~   | Chapter 7     | *cancelled*  |
-|            | Final Project                     |               | *See below*      |
-| -          | Final Exam                        | 5 - 7         | May 9,  1:30pm   |
+| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date          |
+| ----------: | ---------------------------------                                                                                       | ------------- | ----------------  |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Feb 2, 11:59pm    |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 9, 11:59pm    |
+| 3           | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)                 | Chapter 3     | Feb 16,  11:59pm  |
+| -           | Midterm Exam                                                                                                            | 1 - 4         | Feb 24 (in class) |
+| 4           | [Booleans and Control Flow (R3)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)      | Chapter 4     | Mar 15, 11:59pm   |
+| 5           | [Vectors and Garbage Collection (R4)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) | Chapter 5     | Mar 29, 11:59pm   |
+| 6           | [Compiling Functions (R5)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)            | Chapter 6     | Apr 5, 11:59pm    |
+| 7           | [Compiling First-Class Functions (R6)](TBA)                                                                             | Chapter 7     | Apr 12, 11:59pm   |
+|             | Final Project                                                                                                           |               | *See below*       |
+| -           | Final Exam                                                                                                              | 5 - 7         | TBA               |
 
 # Class Schedule
 
-| Date        | Topic                               | Assignment   |
-| -----------:| ----------------------------------- | ------------ |
-| Tue, Jan 15 | Welcome & Racket                    |              |
-| Thu, Jan 17 | ASTs & Interpreters                 | A1 Released  |
-| Tue, Jan 22 | NO CLASS                            |              |
-| Thu, Jan 24 | Partial evaluation                  |              |
-| Tue, Jan 29 | x86 Assembly                        | A2 Released  |
-| Thu, Jan 31 | Compiling R1 I                      |              |
-| Tue, Feb 05 | Compiling R1 II                     |              |
-| Thu, Feb 07 | Using the stack I                   |              |
-| Tue, Feb 12 | Random testing                      | A3 Released  |
-| Thu, Feb 14 | Using the stack II                  |              |
-| Tue, Feb 19 | Register allocation I               |              |
-| Thu, Feb 21 | Register allocation II              | A4 Released  |
-| Tue, Feb 26 | Booleans & Typechecking             |              |
-| Thu, Feb 28 | REVIEW FOR MIDTERM                  |              |
-| Tue, Mar 05 | NO CLASS: Town Meeting Day          |              |
-| Thu, Mar 07 | MIDTERM                             |              |
-| Tue, Mar 12 | NO CLASS: Spring Break              |              |
-| Thu, Mar 14 | NO CLASS: Spring Break              |              |
-| Tue, Mar 19 | Compiling Booleans I                | A5 Released  |
-| Thu, Mar 21 | Compiling Booleans II               |              |
-| Tue, Mar 26 | Tuples & Garbage collection I       |              |
-| Thu, Mar 28 | Tuples & Garbage collection II      | A6 Released  |
-| Tue, Apr 02 | Tuples & Garbage collection III     |              |
-| Thu, Apr 04 | Compiling Functions I               |              |
-| Tue, Apr 09 | Compiling Functions II              |              |
-| Thu, Apr 11 | Compiling Functions III (tco)       | A7 Released  |
-| Tue, Apr 16 | Compiling first-class functions I   |              |
-| Thu, Apr 18 | Dynamic typing                      |              |
-| Tue, Apr 23 | Objects & Optimizations             |              |
-| Thu, Apr 25 | Binary & instruction sets           |              |
-| Tue, Apr 30 | Review for final exam               |              |
-| Thu, May 02 | Project presentations               |              |
-| Thu, May 09 | FINAL EXAM (1:30pm, Kalkin 325)     |              |
+| Date         | Topic                                        | Assignment      |
+| -----------: | -----------------------------------          | ------------    |
+| Mon, Jan 13  | Welcome & Haskell                            |                 |
+| Wed, Jan 15  | ASTs & Interpreters                          |                 |
+| Mon, Jan 20  | NO CLASS                                     |                 |
+| Wed, Jan 22  | x86 Assembly                                 |                 |
+| Mon, Jan 27  | Compiling R0                                 |                 |
+| Wed, Jan 29  | Compiling R1 I                               |                 |
+| Mon, Feb 03  | A1 review; Compiling R1 II                   | A1 Due (Sunday) |
+| Wed, Feb 05  | Compiling R1 III                             |                 |
+| Mon, Feb 10  | A2 review; Register allocation I             | A2 Due (Sunday) |
+| Wed, Feb 12  | Register allocation II                       |                 |
+| Mon, Feb 17  | NO CLASS                                     | A3 Due (Sunday) |
+| Wed, Feb 19  | A3 review; REVIEW FOR MIDTERM                |                 |
+| Mon, Feb 24  | MIDTERM                                      |                 |
+| Wed, Feb 26  | Booleans & Typechecking                      |                 |
+| Mon, Mar 02  | Compiling R2 I                               |                 |
+| Wed, Mar 04  | Compiling R2 II                              |                 |
+| Mon, Mar 09  | NO CLASS: Spring Break                       |                 |
+| Wed, Mar 11  | NO CLASS: Spring Break                       |                 |
+| Mon, Mar 16  | A4 review; Vectors & Garbage collection I    | A4 Due (Sunday) |
+| Wed, Mar 18  | Vectors & Garbage collection II              |                 |
+| Mon, Mar 23  | Vectors & Garbage collection III             |                 |
+| Wed, Mar 25  | Compiling Functions I                        |                 |
+| Mon, Mar 30  | NO CLASS                                     | A5 Due (Sunday) |
+| Wed, Apr 01  | A5 review; Compiling Functions II            |                 |
+| Mon, Apr 06  | A6 review; Compiling first-class functions I | A6 Due (Sunday) |
+| Wed, Apr 08  | Compiling first-class functions II           |                 |
+| Mon, Apr 13  | A7 review; Dynamic typing                    | A7 Due (Sunday) |
+| Wed, Apr 15  | Objects & optimization                       |                 |
+| Mon, Apr 20  | Binary & instruction sets                    |                 |
+| Wed, Apr 22  | Review for final exam                        |                 |
+| Mon, Apr 27  | Project presentations                        |                 |
+| Wed, Apr 29  | Project presentations                        |                 |
+| TBA          | FINAL EXAM (TBA)                             |                 |
 
 # Final Projects
 
@@ -297,7 +275,7 @@ the end of the talk. If you attend all lectures you will receive a
   * cons lists
     * with vectors
     * improved tags
-    * quasiquote / match
+    * datatypes / pattern matching
   * vectors with non-statically-known indexing (runtime checking)
   * objects
     * records with named fields (from vectors)
@@ -332,7 +310,7 @@ The goal of the final project is for you to design and implement your own compil
 - Your *implementation*, as an extension to the course compiler
   - Include at least 10 representative test cases demonstrating your new feature
 - A *README* of at most 1 page, describing the approach you took in your implementation, and features you planned but did not implement
-- A *project presentation* of about 10 minutes, including
+- A *project presentation* of about 5 minutes, including
   - A description of the new feature, including a test case
   - Your implementation approach
   - A description of challenges you encountered / parts you were not able to implement
@@ -341,8 +319,9 @@ The goal of the final project is for you to design and implement your own compil
 
 The final project is worth 14% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
-| Deliverable             | Due Date            | Grade Percent | Turn In  |
-| -----------------------:| ------------------- | ------------- | -------- |
-| Project Proposal        | 4/16/19 at 11:59pm  | 10%           | By email |
-| Implementation & README | 5/6/19 at 11:59pm   | 60%           | By email |
-| Project Presentations   | 5/2/19 in class     | 30%           | In class |
+| Deliverable              | Due Date                     | Grade Percent | Turn In    |
+| -----------------------: | -------------------          | ------------- | --------   |
+| Project Proposal         | 4/5/20 at 11:59pm            | 10%           | Blackboard |
+| Implementation & README  | 5/3/20 at 11:59pm            | 60%           | Blackboard |
+| Project Presentations    | 4/27/20 and 4/29/20 in class | 30%           | In class   |
+
