@@ -11,7 +11,7 @@ None yet.
 
 ## Administrative
 
-- **Lecture**: Monday & Wednesday, 2:50-4:05pm, Votey 207
+- **Lecture**: Tuesday & Thursday, 2:50-4:05pm, Votey 207
 - **Instructor**: Joe Near (jnear at uvm dot edu)
 - **Office hours**: TBA, Innovation E458
 
@@ -75,7 +75,7 @@ For questions about Haskell, course material, or assignments, post to
 Piazza. Feel free to answer others' questions, but please do not share
 code or solutions. You can access Piazza here:
 
-- [CS202 Piazza](TBA)
+- [CS202 Piazza](https://piazza.com/class/k55pkykniwv5sp?cid=1)
 
 Other resources:
 
@@ -101,40 +101,40 @@ points. This percentage is translated into a letter grade as follows:
 
 ### Undergraduate Students
 
-|Percent | Letter Grade |
-| ------:| ------------ |
-| 98-100 | A+ |
-| 93-97  | A  |
-| 90-92  | A- |
-| 87-89  | B+ |
-| 83-86  | B  |
-| 80-82  | B- |
-| 77-79  | C+ |
-| 73-76  | C  |
-| 70-72  | C- |
-| 67-69  | D+ |
-| 63-66  | D  |
-| 60-62  | D- |
-| <60    | F  |
+| Percent | Letter Grade |
+| ------: | ------------ |
+| 98-100  | A+           |
+| 93-97   | A            |
+| 90-92   | A-           |
+| 87-89   | B+           |
+| 83-86   | B            |
+| 80-82   | B-           |
+| 77-79   | C+           |
+| 73-76   | C            |
+| 70-72   | C-           |
+| 67-69   | D+           |
+| 63-66   | D            |
+| 60-62   | D-           |
+| <60     | F            |
 
 ### Graduate Students
 
-|Percent | Letter Grade |
-| ------:| ------------ |
-| 98-100 | A+ |
-| 93-97  | A  |
-| 90-92  | A- |
-| 87-89  | B+ |
-| 83-86  | B  |
-| 80-82  | B- |
-| 77-79  | C+ |
-| 73-76  | C  |
-| 70-72  | C- |
-| <70    | F  |
+| Percent | Letter Grade |
+| ------: | ------------ |
+| 98-100  | A+           |
+| 93-97   | A            |
+| 90-92   | A-           |
+| 87-89   | B+           |
+| 83-86   | B            |
+| 80-82   | B-           |
+| 77-79   | C+           |
+| 73-76   | C            |
+| 70-72   | C-           |
+| <70     | F            |
 
 ## Assignments
 
-Assignments will generally be due weekly on Sundays at 11:59pm,
+Assignments will generally be due weekly on Mondays at 11:59pm,
 with breaks for the midterm exam and final project. Your assignment
 will be graded using a test suite which will be made available one day
 before the assignment due date.
@@ -144,7 +144,7 @@ extensively on the last one, and mastering the assignment material is
 crucial to success in this course. If you fall behind on completing
 the assignments, it will be extremely difficult to catch up.
 
-Therefore, on Monday after each assignment due date, we will discuss
+Therefore, on Tuesday after each assignment due date, we will discuss
 that assignment's solution in lecture, and the complete solution will
 be made available on Blackboard. I encourage students to take
 advantage of the official solutions to avoid falling behind.
@@ -216,55 +216,55 @@ the end of the talk.
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date          |
-| ----------: | ---------------------------------                                                                                       | ------------- | ----------------  |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Feb 2, 11:59pm    |
-| 2           | [Compiling R1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 9, 11:59pm    |
-| 3           | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)                 | Chapter 3     | Feb 16,  11:59pm  |
-| -           | Midterm Exam                                                                                                            | 1 - 4         | Feb 24 (in class) |
-| 4           | [Booleans and Control Flow (R3)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)      | Chapter 4     | Mar 15, 11:59pm   |
-| 5           | [Vectors and Garbage Collection (R4)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) | Chapter 5     | Mar 29, 11:59pm   |
-| 6           | [Compiling Functions (R5)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)            | Chapter 6     | Apr 5, 11:59pm    |
-| 7           | [Compiling First-Class Functions (R6)](TBA)                                                                             | Chapter 7     | Apr 12, 11:59pm   |
-|             | Final Project                                                                                                           |               | *See below*       |
-| -           | Final Exam                                                                                                              | 5 - 7         | TBA               |
+| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date         |
+| ----------: | ---------------------------------                                                                                       | ------------- | ---------------- |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Jan 27, 11:59pm  |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 10, 11:59pm  |
+| 3           | [Register Allocation](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw4.md)                 | Chapter 3     | Feb 17, 11:59pm  |
+| -           | Midterm Exam                                                                                                            | 1 - 4         | Mar 5 (in class) |
+| 4           | [Booleans and Control Flow (R3)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw5.md)      | Chapter 4     | Mar 2, 11:59pm   |
+| 5           | [Vectors and Garbage Collection (R4)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw6.md) | Chapter 5     | Mar 30, 11:59pm  |
+| 6           | [Compiling Functions (R5)](https://github.com/jnear/cs295-compiler-construction/blob/master/homework/hw7.md)            | Chapter 6     | Apr 6, 11:59pm   |
+| 7           | [Compiling First-Class Functions (R6)](TBA)                                                                             | Chapter 7     | Apr 13, 11:59pm  |
+|             | Final Project                                                                                                           |               | *See below*      |
+| -           | Final Exam                                                                                                              | 5 - 7         | TBA              |
 
 # Class Schedule
 
 | Date         | Topic                                        | Assignment      |
 | -----------: | -----------------------------------          | ------------    |
-| Mon, Jan 13  | Welcome & Haskell                            |                 |
-| Wed, Jan 15  | ASTs & Interpreters                          |                 |
-| Mon, Jan 20  | NO CLASS                                     |                 |
-| Wed, Jan 22  | x86 Assembly                                 |                 |
-| Mon, Jan 27  | Compiling R0                                 |                 |
-| Wed, Jan 29  | Compiling R1 I                               |                 |
-| Mon, Feb 03  | A1 review; Compiling R1 II                   | A1 Due (Sunday) |
-| Wed, Feb 05  | Compiling R1 III                             |                 |
-| Mon, Feb 10  | A2 review; Register allocation I             | A2 Due (Sunday) |
-| Wed, Feb 12  | Register allocation II                       |                 |
-| Mon, Feb 17  | NO CLASS                                     | A3 Due (Sunday) |
-| Wed, Feb 19  | A3 review; REVIEW FOR MIDTERM                |                 |
-| Mon, Feb 24  | MIDTERM                                      |                 |
-| Wed, Feb 26  | Booleans & Typechecking                      |                 |
-| Mon, Mar 02  | Compiling R2 I                               |                 |
-| Wed, Mar 04  | Compiling R2 II                              |                 |
-| Mon, Mar 09  | NO CLASS: Spring Break                       |                 |
-| Wed, Mar 11  | NO CLASS: Spring Break                       |                 |
-| Mon, Mar 16  | A4 review; Vectors & Garbage collection I    | A4 Due (Sunday) |
-| Wed, Mar 18  | Vectors & Garbage collection II              |                 |
-| Mon, Mar 23  | Vectors & Garbage collection III             |                 |
-| Wed, Mar 25  | Compiling Functions I                        |                 |
-| Mon, Mar 30  | NO CLASS                                     | A5 Due (Sunday) |
-| Wed, Apr 01  | A5 review; Compiling Functions II            |                 |
-| Mon, Apr 06  | A6 review; Compiling first-class functions I | A6 Due (Sunday) |
-| Wed, Apr 08  | Compiling first-class functions II           |                 |
-| Mon, Apr 13  | A7 review; Dynamic typing                    | A7 Due (Sunday) |
-| Wed, Apr 15  | Objects & optimization                       |                 |
-| Mon, Apr 20  | Binary & instruction sets                    |                 |
-| Wed, Apr 22  | Review for final exam                        |                 |
-| Mon, Apr 27  | Project presentations                        |                 |
-| Wed, Apr 29  | Project presentations                        |                 |
+| Tue, Jan 14  | Welcome & Haskell                            |                 |
+| Thu, Jan 16  | ASTs & Interpreters                          |                 |
+| Tue, Jan 21  | x86 Assembly                                 |                 |
+| Thu, Jan 23  | Compiling R0                                 |                 |
+| Tue, Jan 28  | A1 review; Compiling R1 I                    | A1 Due (Monday) |
+| Thu, Jan 30  | Compiling R1 II                              |                 |
+| Tue, Feb 04  | Compiling R1 III                             |                 |
+| Thu, Feb 06  | Register allocation I                        |                 |
+| Tue, Feb 11  | A2 review; Register allocation II            | A2 Due (Monday) |
+| Thu, Feb 13  | Register allocation III                      |                 |
+| Tue, Feb 18  | Booleans & Typechecking                      | A3 Due (Monday) |
+| Thu, Feb 20  | Compiling R2 I                               |                 |
+| Tue, Feb 25  | A3 review; Compiling R2 II                   |                 |
+| Thu, Feb 27  | REVIEW FOR MIDTERM                           |                 |
+| Tue, Mar 03  | NO CLASS                                     | A4 Due (Monday) |
+| Thu, Mar 05  | MIDTERM                                      |                 |
+| Tue, Mar 10  | NO CLASS: Spring Break                       |                 |
+| Thu, Mar 12  | NO CLASS: Spring Break                       |                 |
+| Tue, Mar 17  | A4 review; Vectors & Garbage collection I    |                 |
+| Thu, Mar 19  | Vectors & Garbage collection II              |                 |
+| Tue, Mar 24  | Vectors & Garbage collection III             |                 |
+| Thu, Mar 26  | Compiling Functions I                        |                 |
+| Tue, Mar 31  | NO CLASS                                     | A5 Due (Monday) |
+| Thu, Apr 02  | A5 review; Compiling Functions II            |                 |
+| Tue, Apr 07  | A6 review; Compiling first-class functions I | A6 Due (Monday) |
+| Thu, Apr 09  | Compiling first-class functions II           |                 |
+| Tue, Apr 14  | A7 review; Dynamic typing                    | A7 Due (Monday) |
+| Thu, Apr 16  | Objects & optimization                       |                 |
+| Tue, Apr 21  | Binary & instruction sets                    |                 |
+| Thu, Apr 23  | Review for final exam                        |                 |
+| Tue, Apr 28  | Project presentations                        |                 |
+| Thu, Apr 30  | Project presentations                        |                 |
 | TBA          | FINAL EXAM (TBA)                             |                 |
 
 # Final Projects
@@ -321,7 +321,8 @@ The final project is worth 14% of your final grade. The schedule for final proje
 
 | Deliverable              | Due Date                     | Grade Percent | Turn In    |
 | -----------------------: | -------------------          | ------------- | --------   |
-| Project Proposal         | 4/5/20 at 11:59pm            | 10%           | Blackboard |
-| Implementation & README  | 5/3/20 at 11:59pm            | 60%           | Blackboard |
-| Project Presentations    | 4/27/20 and 4/29/20 in class | 30%           | In class   |
+| Project Proposal         | 4/6/20 at 11:59pm            | 10%           | Blackboard |
+| Implementation & README  | 5/4/20 at 11:59pm            | 60%           | Blackboard |
+| Project Presentations    | 4/28/20 and 4/30/20 in class | 30%           | In class   |
+
 
