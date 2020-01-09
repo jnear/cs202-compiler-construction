@@ -160,6 +160,17 @@ challenge exercises; undergraduates who successfully complete the
 challenge exercise for an assignment will receive 5% extra credit for
 that assignment.
 
+## Exams
+
+There will be two exams:
+
+- An in-class midterm exam on March 5
+- A final exam on May 7 at 1:30pm in Votey 207
+
+The exams will not be cumulative: the midterm will cover the material
+from the first four assignments, and the final will cover the material
+from the last three assignments and subsequent lectures.
+
 ## Final Projects
 
 Each student will select and complete a new language feature for their
@@ -216,18 +227,18 @@ the end of the talk.
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date         |
-| ----------: | ---------------------------------                                                                                       | ------------- | ---------------- |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Jan 27, 11:59pm  |
-| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 10, 11:59pm  |
-| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)                 | Chapter 3     | Feb 17, 11:59pm  |
-| -           | Midterm Exam                                                                                                            | 1 - 4         | Mar 5 (in class) |
-| 4           | [Booleans and Control Flow (R3)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md)      | Chapter 4     | Mar 2, 11:59pm   |
-| 5           | [Vectors and Garbage Collection (R4)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) | Chapter 5     | Mar 30, 11:59pm  |
-| 6           | [Compiling Functions (R5)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw7.md)            | Chapter 6     | Apr 6, 11:59pm   |
-| 7           | [Compiling First-Class Functions (R6)](TBA)                                                                             | Chapter 7     | Apr 13, 11:59pm  |
-|             | Final Project                                                                                                           |               | *See below*      |
-| -           | Final Exam                                                                                                              | 5 - 7         | TBA              |
+| Assignment  | Topics Covered                                                                                          | Text Chapter  | Due Date                 |
+| ----------: | ---------------------------------                                                                       | ------------- | ----------------         |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 27, 11:59pm          |
+| 2           | Compiling R1 to x86                                                                                     | Chapter 2     | Feb 10, 11:59pm          |
+| 3           | Register Allocation                                                                                     | Chapter 3     | Feb 17, 11:59pm          |
+| 4           | Booleans and Control Flow (R3)                                                                          | Chapter 4     | Mar 2, 11:59pm           |
+| -           | Midterm Exam                                                                                            | 1 - 4         | Mar 5 (in class)         |
+| 5           | Vectors and Garbage Collection (R4)                                                                     | Chapter 5     | Mar 30, 11:59pm          |
+| 6           | Compiling Functions (R5)                                                                                | Chapter 6     | Apr 6, 11:59pm           |
+| 7           | Compiling First-Class Functions (R6)                                                                    | Chapter 7     | Apr 13, 11:59pm          |
+|             | Final Project                                                                                           |               | *See below*              |
+| -           | Final Exam                                                                                              | 5 - 7         | May 7, 1:30pm, Votey 207 |
 
 # Class Schedule
 
