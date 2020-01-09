@@ -1,15 +1,18 @@
 # Assignment 1
 
-**Solve the exercises in a single Racket source file, and submit your
-  file on the course Blackboard under "Assignment 1".**
+**Solve the exercise(s) by modifying the `Compiler.hs` file in the `a1`
+directory of the [assignments
+repository](https://github.com/jnear/cs202-assignments) and submit
+your `Compiler.hs` file on the course Blackboard under "Assignment
+1".**
 
-**Due: Monday, Jan 28, 11:59pm**
+**Due: Monday, Jan 27, 11:59pm**
 
-1. Solve *Exercise 1* from the course textbook, on page 15. Implement
-your partial evaluator in a function called `pe-R0`.
-
-2. Write 10 test cases for the partial evaluator you implemented for
-exercise 1. Construct your test cases so that pressing the "run"
-button in DrRacket runs your tests. I suggest (but do not require)
-using `rackunit` as we did in class.
-
+1. Complete `Compiler.hs` so that it implements a compiler from a
+   subset of the R0 language to x86 assembly. The required subset
+   includes programs consisting of a single integer, as described by
+   the grammar below.
+   
+```
+R0Exp ::= <int>
+```
