@@ -13,7 +13,7 @@ None yet.
 
 - **Lecture**: Tuesday & Thursday, 2:50-4:05pm, Votey 207
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: TBA, Innovation E458
+- **Office hours**: Mondays 10am-11am and Fridays 10am-11am, Innovation E458
 
 ## Course Description
 
@@ -79,7 +79,7 @@ code or solutions. You can access Piazza here:
 
 Other resources:
 
-- Set up Haskell Stack (TBA)
+- Assignment code & Haskell info is [on the course code repository](https://github.com/jnear/cs202-assignments)
 - Code from lectures is [available on Github](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
 - The [final review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/final-review.md) is available
@@ -276,7 +276,8 @@ the end of the talk.
 | Thu, Apr 23  | Review for final exam                        |                 |
 | Tue, Apr 28  | Project presentations                        |                 |
 | Thu, Apr 30  | Project presentations                        |                 |
-| TBA          | FINAL EXAM (TBA)                             |                 |
+| Thu, May 07  | FINAL EXAM (1:30pm, Votey 207)               |                 |
+
 
 # Final Projects
 
