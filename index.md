@@ -164,6 +164,22 @@ challenge exercises; undergraduates who successfully complete the
 challenge exercise for an assignment will receive 5% extra credit for
 that assignment.
 
+Assignments will be graded according to the following rubric:
+
+| Grade | Assignment Status                                         |
+| ----: | -------------------                                       |
+| 100   | Passes all test cases                                     |
+| 95    | Passes 75% of test cases                                  |
+| 90    | Passes 50% of test cases                                  |
+| 85    | Passes at least 1 test case                               |
+| 80    | Project compiles; all passes appear to be nearly complete |
+| 75    | All or nearly all passes appear nearly complete           |
+| 70    | Significant work on all passes                            |
+| 65    | Significant work on at least 75% of the passes            |
+| 60    | Significant work on at least half of the passes           |
+| <60   | Missing passes                                            |
+
+
 ## Exams
 
 There will be two exams:
