@@ -77,9 +77,13 @@ code or solutions. You can access Piazza here:
 
 - [CS202 Piazza](https://piazza.com/class/k55pkykniwv5sp?cid=1)
 
-Other resources:
+Code and resources for assignments:
 
 - Assignment code & Haskell info is [on the course code repository](https://github.com/jnear/cs202-assignments)
+- Online compilers are available for each assignment (see links in the assignment description)
+
+Other resources:
+
 - Code from lectures is [available on Github](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
 - The [final review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/final-review.md) is available

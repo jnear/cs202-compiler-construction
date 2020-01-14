@@ -16,3 +16,6 @@ your `Compiler.hs` file on the course Blackboard under "Assignment
 ```
 R0Exp ::= <int>
 ```
+
+An online compiler for this assignment is available
+[here](http://jnear.w3.uvm.edu/cs202/compiler-a1.php).
