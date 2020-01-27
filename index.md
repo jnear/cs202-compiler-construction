@@ -250,7 +250,7 @@ the end of the talk.
 | Assignment  | Topics Covered                                                                                          | Text Chapter  | Due Date                 |
 | ----------: | ---------------------------------                                                                       | ------------- | ----------------         |
 | 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 27, 11:59pm          |
-| 2           | Compiling R1 to x86                                                                                     | Chapter 2     | Feb 10, 11:59pm          |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                                                                                     | Chapter 2     | Feb 10, 11:59pm          |
 | 3           | Register Allocation                                                                                     | Chapter 3     | Feb 17, 11:59pm          |
 | 4           | Booleans and Control Flow (R3)                                                                          | Chapter 4     | Mar 2, 11:59pm           |
 | -           | Midterm Exam                                                                                            | 1 - 4         | Mar 5 (in class)         |
