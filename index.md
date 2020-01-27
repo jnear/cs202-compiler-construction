@@ -7,7 +7,7 @@ layout: default
 
 ## Announcements
 
-None yet.
+- **1/27/20**: [Assignment 2](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) has been posted.
 
 ## Administrative
 
