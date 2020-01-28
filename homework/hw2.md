@@ -38,6 +38,17 @@ textbook:
 - Exercise 6 (page 34)
 - Exercise 7 (page 35)
 
+## Challenge Exercise
+
+Implement a random expression generator that generates correct
+expressions. Write a function called `randomTest` which generates 100
+test cases and tests that your compiler generates correct solutions
+for them.
+
+**Note**: if you are an undergraduate student, and you solve the
+challenge exercise for extra credit, please note this in a comment at
+the top of your file.
+
 ## Online Compiler
 
 [An online compiler for this assignment is available
