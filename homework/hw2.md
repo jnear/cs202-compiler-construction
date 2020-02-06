@@ -42,8 +42,7 @@ textbook:
 
 Implement a random expression generator that generates correct
 expressions. Write a function called `randomTest` which generates 100
-test cases and tests that your compiler generates correct solutions
-for them.
+test cases and runs your compiler on them.
 
 **Note**: if you are an undergraduate student, and you solve the
 challenge exercise for extra credit, please note this in a comment at
