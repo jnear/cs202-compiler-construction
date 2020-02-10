@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **2/10/20**: The first (and possibly only) guest lecture opportunity for extra credit has been announced. The guest lecture will be on Tuesday, Feb 11, 12:30-1:30 in Dewey 314.
+
 - **1/27/20**: [Assignment 2](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) has been posted.
 
 ## Administrative
@@ -241,7 +243,7 @@ must bring a notepad to the lecture, take notes in person during the
 lecture, and then turn your notes in to the instructor personally at
 the end of the talk.
 
- - Guest Lecture 1: TBA
+ - Guest Lecture 1: Tuesday, Feb 11, 12:30-1:30; Dewey 314
  - Guest Lecture 2: TBA
  - Guest Lecture 3: TBA
 
