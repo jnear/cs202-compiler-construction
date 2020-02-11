@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **2/11/20**: [Assignment 3](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) has been posted.
+
 - **2/10/20**: The first (and possibly only) guest lecture opportunity for extra credit has been announced. The guest lecture will be on Tuesday, Feb 11, 12:30-1:30 in Dewey 314.
 
 - **1/27/20**: [Assignment 2](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) has been posted.
@@ -252,15 +254,15 @@ the end of the talk.
 | Assignment  | Topics Covered                                                                                          | Text Chapter  | Due Date                 |
 | ----------: | ---------------------------------                                                                       | ------------- | ----------------         |
 | 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 27, 11:59pm          |
-| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                                                                                     | Chapter 2     | Feb 10, 11:59pm          |
-| 3           | Register Allocation                                                                                     | Chapter 3     | Feb 17, 11:59pm          |
-| 4           | Booleans and Control Flow (R3)                                                                          | Chapter 4     | Mar 2, 11:59pm           |
-| -           | Midterm Exam                                                                                            | 1 - 4         | Mar 5 (in class)         |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) | Chapter 2     | Feb 10, 11:59pm          |
+| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) | Chapter 3     | Feb 24, 11:59pm          |
+| 4           | Booleans and Control Flow (R3)                                                                          | Chapter 4     | Mar 9, 11:59pm           |
+| -           | Midterm Exam (assignments 1-4)                                                                          | 1 - 4         | Mar 5 (in class)         |
 | 5           | Vectors and Garbage Collection (R4)                                                                     | Chapter 5     | Mar 30, 11:59pm          |
 | 6           | Compiling Functions (R5)                                                                                | Chapter 6     | Apr 6, 11:59pm           |
 | 7           | Compiling First-Class Functions (R6)                                                                    | Chapter 7     | Apr 13, 11:59pm          |
 |             | Final Project                                                                                           |               | *See below*              |
-| -           | Final Exam                                                                                              | 5 - 7         | May 7, 1:30pm, Votey 207 |
+| -           | Final Exam (assignments 5-7)                                                                            | 5 - 7         | May 7, 1:30pm, Votey 207 |
 
 # Class Schedule
 
@@ -276,13 +278,13 @@ the end of the talk.
 | Thu, Feb 06  | Register allocation I                        |                 |
 | Tue, Feb 11  | A2 review; Register allocation II            | A2 Due (Monday) |
 | Thu, Feb 13  | Register allocation III                      |                 |
-| Tue, Feb 18  | Booleans & Typechecking                      | A3 Due (Monday) |
+| Tue, Feb 18  | Booleans & Typechecking                      |                 |
 | Thu, Feb 20  | Compiling R2 I                               |                 |
-| Tue, Feb 25  | A3 review; Compiling R2 II                   |                 |
+| Tue, Feb 25  | A3 review; Compiling R2 II                   | A3 Due (Monday) |
 | Thu, Feb 27  | REVIEW FOR MIDTERM                           |                 |
-| Tue, Mar 03  | NO CLASS                                     | A4 Due (Monday) |
+| Tue, Mar 03  | NO CLASS                                     |                 |
 | Thu, Mar 05  | MIDTERM                                      |                 |
-| Tue, Mar 10  | NO CLASS: Spring Break                       |                 |
+| Tue, Mar 10  | NO CLASS: Spring Break                       | A4 Due (Monday) |
 | Thu, Mar 12  | NO CLASS: Spring Break                       |                 |
 | Tue, Mar 17  | A4 review; Vectors & Garbage collection I    |                 |
 | Thu, Mar 19  | Vectors & Garbage collection II              |                 |
