@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **2/20/20**: More guest lecture opportunities have been posted below (and announced on Blackboard).
+
 - **2/11/20**: [Assignment 3](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) has been posted.
 
 - **2/10/20**: The first (and possibly only) guest lecture opportunity for extra credit has been announced. The guest lecture will be on Tuesday, Feb 11, 12:30-1:30 in Dewey 314.
@@ -246,8 +248,9 @@ lecture, and then turn your notes in to the instructor personally at
 the end of the talk.
 
  - Guest Lecture 1: Tuesday, Feb 11, 12:30-1:30; Dewey 314
- - Guest Lecture 2: TBA
- - Guest Lecture 3: TBA
+ - Guest Lecture 2: Monday, 2/24, 1-2pm, Lafayette 403. Jean-Gabriel Young: Relational data when order matters.
+ - Guest Lecture 3: Thursday, 2/27, 12-1pm, John Dewey Lounge (325 Old Mill). Nick Cheney: Automatic Self-Configurable Machine Learning to Enable “Small-Data” Science for Non-Experts.
+ - Guest Lecture 4: Tuesday, 3/3, 12-1pm, Dewey 314. Vanessa Ferdinand: Title TBA.
 
 # Assignments
 
