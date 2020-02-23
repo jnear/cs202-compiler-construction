@@ -93,6 +93,7 @@ Other resources:
 - Code from lectures is [available on Github](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
 - The [final review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/final-review.md) is available
+- Fun link: a [list of companies who need compiler developers!](https://mgaudet.github.io/CompilerJobs/)
 
 # Policies
 
