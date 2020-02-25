@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **2/25/20**: [Assignment 4](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) has been posted.
+
 - **2/20/20**: More guest lecture opportunities have been posted below (and announced on Blackboard).
 
 - **2/11/20**: [Assignment 3](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) has been posted.
@@ -255,18 +257,18 @@ the end of the talk.
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                          | Text Chapter  | Due Date                 |
-| ----------: | ---------------------------------                                                                       | ------------- | ----------------         |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 27, 11:59pm          |
-| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) | Chapter 2     | Feb 10, 11:59pm          |
-| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) | Chapter 3     | Feb 24, 11:59pm          |
-| 4           | Booleans and Control Flow (R3)                                                                          | Chapter 4     | Mar 9, 11:59pm           |
-| -           | Midterm Exam (assignments 1-4)                                                                          | 1 - 4         | Mar 5 (in class)         |
-| 5           | Vectors and Garbage Collection (R4)                                                                     | Chapter 5     | Mar 30, 11:59pm          |
-| 6           | Compiling Functions (R5)                                                                                | Chapter 6     | Apr 6, 11:59pm           |
-| 7           | Compiling First-Class Functions (R6)                                                                    | Chapter 7     | Apr 13, 11:59pm          |
-|             | Final Project                                                                                           |               | *See below*              |
-| -           | Final Exam (assignments 5-7)                                                                            | 5 - 7         | May 7, 1:30pm, Votey 207 |
+| Assignment  | Topics Covered                                                                                                     | Text Chapter  | Due Date                 |
+| ----------: | ---------------------------------                                                                                  | ------------- | ----------------         |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)            | Chapter 1 & 2 | Jan 27, 11:59pm          |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)            | Chapter 2     | Feb 10, 11:59pm          |
+| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)            | Chapter 3     | Feb 24, 11:59pm          |
+| 4           | [Booleans and Control Flow (R2)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) | Chapter 4     | Mar 9, 11:59pm           |
+| -           | Midterm Exam (assignments 1-4)                                                                                     | 1 - 4         | Mar 5 (in class)         |
+| 5           | Vectors and Garbage Collection (R3)                                                                                | Chapter 5     | Mar 30, 11:59pm          |
+| 6           | Compiling Functions (R4)                                                                                           | Chapter 6     | Apr 6, 11:59pm           |
+| 7           | Compiling First-Class Functions (R5)                                                                               | Chapter 7     | Apr 13, 11:59pm          |
+|             | Final Project                                                                                                      |               | *See below*              |
+| -           | Final Exam (assignments 5-7)                                                                                       | 5 - 7         | May 7, 1:30pm, Votey 207 |
 
 # Class Schedule
 
