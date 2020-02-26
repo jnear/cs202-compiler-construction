@@ -222,6 +222,7 @@ basic blocks.
    live-after sets for each instruction and the live-before sets for
    each basic block.
 
+Program:
 
     "start":  LIVE-BEFORE: {               }
             [ CmpqE ( IntXE 6 ) ( IntXE 5 )           {           }
