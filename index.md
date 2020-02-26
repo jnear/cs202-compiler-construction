@@ -166,12 +166,13 @@ Partial credit will be (extensively) given on assignments. I encourage
 you to submit *something* for every assignment, even if your solution
 is far from complete.
 
-Each assignment includes a *challenge exercise*, which generally
+Most assignments include a *challenge exercise*, which generally
 involves extending your compiler with extra features or optimization
 capabilities. Graduate students are required to complete all of the
-challenge exercises; undergraduates who successfully complete the
-challenge exercise for an assignment will receive 5% extra credit for
-that assignment.
+challenge exercises, and the challenge exercise will account for 20%
+of the total grade for the assignment. Undergraduates who successfully
+complete the challenge exercise for an assignment will receive 5%
+extra credit for that assignment.
 
 Assignments will be graded according to the following rubric:
 
@@ -215,9 +216,8 @@ Graduate students will be expected to complete additional requirements
 in order to receive graduate credit for this course:
 
 - Graduate students are expected to complete all of the challenge
-  exercises. The weighting of each challenge exercise will be noted in
-  the assignment, and will generally account for 20-40% of the total
-  grade for the assignment.
+  exercises. For graduate students, the challenge exercise will
+  account for 20% of the assignment's total grade.
 
 - Graduate students are expected to select and complete more ambitious
   final projects. Suggested topics for graduate student final projects
