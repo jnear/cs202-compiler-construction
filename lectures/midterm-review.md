@@ -1,6 +1,4 @@
-# Midterm Review (Spring 2019)
-
-**NOTE: This document is from Spring 2019, and has not yet been updated**
+# Midterm Review (Spring 2020)
 
 # Format
 
@@ -14,7 +12,6 @@
 
 # Major topics
 
-- Partial evaluation
 - Uniquifying variables
 - Flattening expressions
 - Translation to C₀ language
@@ -27,97 +24,53 @@
   - Interference graph
   - Allocation by graph coloring
 - Typechecking
+- Building and using control flow graphs
 
 # Sample Questions
-
-## Partial Evaluation
-
-Partially evaluate the following expressions:
-
-    (+ 10 20)
-    (+ (+ 1 2) (+ 3 (read)))
-    (+ 2 (+ (read) 4))
-    (- (+ (read) (- 10)))
-    (+ (+ 1 (read)) (+ 2 (read)))
-
-Here's a partial evaluator:
-
-    (define (pe-neg r)
-      (match r
-        [(? fixnum?) (- 0 r)]
-        [`(read) `(- (read))]
-        [`(- ,e) e]
-        [`(+ ,e1 ,e2) `(+ ,(pe-neg e1) ,(pe-neg e2))]))
-    
-    (define (pe-add r1 r2)
-      (match `(,r1 ,r2)
-        [`(,r1 ,r2) #:when (and (fixnum? r1) (fixnum? r2))
-                    (+ r1 r2)]
-        [`(,r1 (+ ,r2 ,r3)) #:when (and (fixnum? r1) (fixnum? r2))
-                            `(+ ,(+ r1 r2) ,r3)]
-        [`(,r1 (+ ,r2 ,r3)) #:when (and (fixnum? r1) (fixnum? r3))
-                            `(+ ,(+ r1 r3) ,r2)]
-        [`((+ ,r1 ,r2) ,r3) #:when (and (fixnum? r1) (fixnum? r3))
-                            `(+ ,(+ r1 r3) ,r2)]
-        [`((+ ,r1 ,r2) ,r3) #:when (and (fixnum? r2) (fixnum? r3))
-                            `(+ ,(+ r2 r3) ,r1)]
-        [`(,r1 ,r2) `(+ ,r1 ,r2)]))
-    
-    (define (pe-exp e)
-      (match e
-        [(? fixnum?) e]
-        [`(read) `((read))]
-        [`(- ,e1) (pe-neg (pe-exp e1))]
-        [`(+ ,e1 ,e2) (pe-add (pe-exp e1) (pe-exp e2))]))
-    
-    
-For which of the above expressions will this partial evaluator fail to
-produce a fully partially evaluated result?
-
-At a high level (just one sentence), how would you fix it?
 
 ## Uniquifying variables
 
 For each of the following expressions, replace each variable with a
-  "uniquified" version, e.g. `x` ⇒ `x.1`.
+  "uniquified" version, e.g. `x` ⇒ `x1`.
 
-    (let ([x 5])
-      (let ([y 6])
-        (+ x y)))
-      
-    (let ([x 5])
-      (let ([x 6])
-        (+ x x)))
-          
-    (let ([x (let ([x 7]) 
-               (+ x 1))])
-      (let ([x 6])
-        (+ x x)))
 
-    (let ([x 5])
-      (let ([x (let ([x 7]) 
-                 (+ x 1))])
-        (+ x x)))
+    let x = 5
+    in let y = 6
+       in x + y
+    
+    let x = 5
+    in let x = 6
+       in x + x
+    
+    let x = (let x = 7
+             in x + 1)
+    in let x = 6
+       in x + x
+    
+    let x = 5
+    in let x = (let x = 7
+                in x + 1)
+       in x + x
 
 ## Flattening Expressions
 
 Compile the following R₁ program into C₀:
 
-    (program () (+ (let ([x (read)]) (+ x 3)) 7))
+    (let x = 5
+     in x + 3) + 7
 
 ## x86 / compiler passes / stack allocation
 
-Compile the below program into x86, placing all variables on the
-stack.
+Compile the pseudo-x86 program below into x86, placing all variables
+on the stack.
 
-    (program (x t1 t2)
-      (callq read_int)
-      (movq (reg rax) (var x))
-      (movq (int 4) (var t1))
-      (negq (var t1))
-      (movq (var t1) (var t2))
-      (addq (var x) (var t2))
-      (movq (var t2) (reg rax)))
+
+    [ MovqE (RegE "rax") (VarXE "x")
+    , MovqE (IntXE 4)    (VarXE "t1")
+    , AddqE (IntXE 5)    (VarXE "t1")
+    , MovqE (VarXE "t1") (VarXE "t2")
+    , AddqE (VarXE "x")  (VarXE "t2")
+    , MovqE (VarXE "t2") (RegE "rax) ]
 
 Part (a): for each variable in the program, assign the variable a home
 on the stack.
@@ -135,24 +88,34 @@ Part (c): write down the complete x86 program
 
 Consider this program:
 
-    (program (x t1 t2)
-      (movq (int 5) (var x))
-      (movq (int 4) (var t1))
-      (negq (var t1))
-      (movq (var t1) (var t2))
-      (addq (var x) (var t2))
-      (movq (var t2) (reg rax)))
+    let x = 5
+    in let y = 6
+    in x + y + y
+
+Compiled into pseudo-x86, the program becomes:
+
+    [ MovqE ( IntXE 5 ) ( VarXE "x1" )
+    , MovqE ( IntXE 6 ) ( VarXE "y2" )
+    , MovqE ( VarXE "x1" ) ( VarXE "tmp3" )
+    , AddqE ( VarXE "y2" ) ( VarXE "tmp3" )
+    , MovqE ( VarXE "tmp3" ) ( VarXE "tmp4" )
+    , AddqE ( VarXE "y2" ) ( VarXE "tmp4" )
+    , MovqE ( VarXE "tmp4" ) ( RegE "rax" )
+    , RetqE
+    ] 
 
 Annotate the below copy of the program with each instruction's
 *live-after* set.
 
-    (program (x t1 t2)
-      (movq (int 5) (var x))     {       }
-      (movq (int 4) (var t1))    {       }
-      (negq (var t1))            {       }
-      (movq (var t1) (var t2))   {       }
-      (addq (var x) (var t2))    {       }
-      (movq (var t2) (reg rax))) {       }
+    [ MovqE ( IntXE 5 ) ( VarXE "x1" )          {       }
+    , MovqE ( IntXE 6 ) ( VarXE "y2" )          {       }
+    , MovqE ( VarXE "x1" ) ( VarXE "tmp3" )     {       }
+    , AddqE ( VarXE "y2" ) ( VarXE "tmp3" )     {       }
+    , MovqE ( VarXE "tmp3" ) ( VarXE "tmp4" )   {       }
+    , AddqE ( VarXE "y2" ) ( VarXE "tmp4" )     {       }
+    , MovqE ( VarXE "tmp4" ) ( RegE "rax" )     {       }
+    , RetqE
+    ] 
 
 Draw the interference graph for this program.
 
@@ -160,59 +123,125 @@ For the following interference graph, assign a register to each
 variable using saturation-based graph coloring. You may use the
 registers `rbx`, `rcx`, and `rdx`.
 
-- `x`:
-- `t1`:
-- `t2`:
+- `x1`:
+- `y2`:
+- `tmp3`:
+- `tmp4`:
 
 ## Typechecking
 
 For each of the following expressions, write the type of the
 expression. If the expression is not well-typed, write "none."
 
-    (if (read)
-        1
-        2)
+
+    if 5
+    then 1
+    else 2
     
-    (if (eq? 1 (read))
-        (+ 2 3)
-        5)
+    if 1 == 2
+    then 2 + 3
+    else 5
+    
+    if 1 == 2
+    then 2 + 3
+    else True
+    
+    if False
+    then 2 == 3
+    else True
+    
+    let x = 5
+    in if x == 5
+       then (let y = 6
+             in x + y)
+       else 6
+    
+    let x = (let y = 5 + 6
+             in y + 7)
+    in if False
+       then x + 2
+       else 3
         
-    (if (eq? 1 (read))
-        (+ 2 3)
-        #t)
+    let x = (let y = 5 + 6
+             in y + x)
+    in if False
+       then x + 2
+       else 3
         
-    (if #f
-        (eq? 2 3)
-        #t)
-        
-    (let ([x (read)])
-      (if (eq? x 5)
-          (let ([y (read)])
-            (+ x y))
-          6))
+    let x = (let y = 5 + 6
+             in y + 7)
+    in if False
+       then x + y
+       else 3
     
-    (let ([x (let ([y (+ 5 (read))])
-               (+ y 7))])
-      (if #f
-          (+ x 2)
-          3))
     
-    (let ([x (let ([y (+ 5 (read))])
-               (+ y x))])
-      (if #f
-          (+ x 2)
-          3))
+    let x = (if x == 5
+             then True
+             else False)
+    in if x
+       then 5 == 6
+       else 7
     
-    (let ([x (let ([y (+ 5 (read))])
-               (+ y 7))])
-      (if #f
-          (+ x y)
-          3))
+
+## Control Flow Graphs
+
+Consider the following pseudo-x86 program compiled from R2, with 4
+basic blocks.
+
+    "start":
+            [ CmpqE ( IntXE 6 ) ( IntXE 5 )
+            , JmpIfE CCe "label4" 
+            , JmpE "label3" 
+            ] 
     
-    (let ([x (if (eq? x 5)
-                 #t
-                 #f)])
-      (if x
-          (+ 5 6)
-          (read)))
+    "label3":
+            [ MovqE ( IntXE 8 ) ( VarXE "x1" )
+            , JmpE "label2" 
+            ] 
     
+    "label4":
+            [ MovqE ( IntXE 7 ) ( VarXE "x1" )
+            , JmpE "label2" 
+            ] 
+    
+    "label2":
+            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )
+            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )
+            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )
+            , RetqE
+            ] 
+    
+1. Draw the control flow graph for this program (without
+   instructions - only labels required) (i.e. the "jumps-to graph"
+   described in class).
+
+2. In what order should liveness analysis be performed on the basic
+   blocks of this program?
+
+3. Perform the liveness analysis for this program, filling in the
+   live-after sets for each instruction and the live-before sets for
+   each basic block.
+
+
+    "start":  LIVE-BEFORE: {               }
+            [ CmpqE ( IntXE 6 ) ( IntXE 5 )           {           }
+            , JmpIfE CCe "label4"                     {           }
+            , JmpE "label3"                           {           }
+            ] 
+    
+    "label3":  LIVE-BEFORE: {               }
+            [ MovqE ( IntXE 8 ) ( VarXE "x1" )        {           }
+            , JmpE "label2"                           {           }
+            ] 
+    
+    "label4":  LIVE-BEFORE: {               }
+            [ MovqE ( IntXE 7 ) ( VarXE "x1" )        {           }
+            , JmpE "label2"                           {           }
+            ] 
+    
+    "label2":  LIVE-BEFORE: {               }
+            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )   {           }
+            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )     {           }
+            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )   {           }
+            , RetqE
+            ] 
