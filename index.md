@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **2/26/20**: The updated [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
+
 - **2/25/20**: [Assignment 4](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) has been posted.
 
 - **2/20/20**: More guest lecture opportunities have been posted below (and announced on Blackboard).
