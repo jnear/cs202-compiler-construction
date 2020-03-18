@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **3/18/20**: The course has moved to remote instruction. I have updated the schedule. Please see Blackboard announcements for more information.
+
 - **2/26/20**: The updated [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
 
 - **2/25/20**: [Assignment 4](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) has been posted.
@@ -21,9 +23,9 @@ layout: default
 
 ## Administrative
 
-- **Lecture**: Tuesday & Thursday, 2:50-4:05pm, Votey 207
+- **Lecture**: None (asynchronous remote instruction). See video postings on Blackboard.
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Mondays 10am-11am and Fridays 10am-11am, Innovation E458
+- **Office hours**: Tuesdays and Thursdays, 2:50pm - 4pm (on Microsoft Teams)
 
 ## Course Description
 
@@ -266,9 +268,9 @@ the end of the talk.
 | 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)            | Chapter 3     | Feb 24, 11:59pm          |
 | 4           | [Booleans and Control Flow (R2)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) | Chapter 4     | Mar 9, 11:59pm           |
 | -           | Midterm Exam (assignments 1-4)                                                                                     | 1 - 4         | Mar 5 (in class)         |
-| 5           | Vectors and Garbage Collection (R3)                                                                                | Chapter 5     | Mar 30, 11:59pm          |
-| 6           | Compiling Functions (R4)                                                                                           | Chapter 6     | Apr 6, 11:59pm           |
-| 7           | Compiling First-Class Functions (R5)                                                                               | Chapter 7     | Apr 13, 11:59pm          |
+| 5           | Vectors and Garbage Collection (R3)                                                                                | Chapter 5     | Apr 6, 11:59pm           |
+| 6           | Compiling Functions (R4)                                                                                           | Chapter 6     | Apr 20, 11:59pm          |
+| 7           | Compiling First-Class Functions (R5)                                                                               | Chapter 7     | *TBA*                    |
 |             | Final Project                                                                                                      |               | *See below*              |
 | -           | Final Exam (assignments 5-7)                                                                                       | 5 - 7         | May 7, 1:30pm, Votey 207 |
 
@@ -294,17 +296,17 @@ the end of the talk.
 | Thu, Mar 05  | MIDTERM                                      |                 |
 | Tue, Mar 10  | NO CLASS: Spring Break                       | A4 Due (Monday) |
 | Thu, Mar 12  | NO CLASS: Spring Break                       |                 |
-| Tue, Mar 17  | A4 review; Vectors & Garbage collection I    |                 |
-| Thu, Mar 19  | Vectors & Garbage collection II              |                 |
-| Tue, Mar 24  | Vectors & Garbage collection III             |                 |
-| Thu, Mar 26  | Compiling Functions I                        |                 |
-| Tue, Mar 31  | NO CLASS                                     | A5 Due (Monday) |
-| Thu, Apr 02  | A5 review; Compiling Functions II            |                 |
-| Tue, Apr 07  | A6 review; Compiling first-class functions I | A6 Due (Monday) |
+| Tue, Mar 17  | No class                                     |                 |
+| Thu, Mar 19  | A4 review; Vectors & Garbage collection I    |                 |
+| Tue, Mar 24  | Vectors & Garbage collection II              |                 |
+| Thu, Mar 26  | Vectors & Garbage collection III             |                 |
+| Tue, Mar 31  | Compiling Functions I                        |                 |
+| Thu, Apr 02  | Compiling Functions II                       |                 |
+| Tue, Apr 07  | A5 review; Compiling first-class functions I | A5 Due (Monday) |
 | Thu, Apr 09  | Compiling first-class functions II           |                 |
-| Tue, Apr 14  | A7 review; Dynamic typing                    | A7 Due (Monday) |
+| Tue, Apr 14  | Dynamic typing                               |                 |
 | Thu, Apr 16  | Objects & optimization                       |                 |
-| Tue, Apr 21  | Binary & instruction sets                    |                 |
+| Tue, Apr 21  | A6 review; Binary & instruction sets         | A6 Due (Monday) |
 | Thu, Apr 23  | Review for final exam                        |                 |
 | Tue, Apr 28  | Project presentations                        |                 |
 | Thu, Apr 30  | Project presentations                        |                 |
