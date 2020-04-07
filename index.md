@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/07/20**: Schedule updated.
+
 - **3/24/20**: [Assignment 5](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) has been posted.
 
 - **3/18/20**: The course has moved to remote instruction. I have updated the schedule. Please see Blackboard announcements for more information.
@@ -201,7 +203,8 @@ Assignments will be graded according to the following rubric:
 There will be two exams:
 
 - An in-class midterm exam on March 5
-- A final exam on May 7 at 1:30pm in Votey 207
+- ~~A final exam on May 7 at 1:30pm in Votey 207~~
+- A take-home final exam, due on May 7 at 11:59pm
 
 The exams will not be cumulative: the midterm will cover the material
 from the first four assignments, and the final will cover the material
@@ -263,56 +266,58 @@ the end of the talk.
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date                 |
-| ----------: | ---------------------------------                                                                                       | ------------- | ----------------         |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Jan 27, 11:59pm          |
-| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 10, 11:59pm          |
-| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)                 | Chapter 3     | Feb 24, 11:59pm          |
-| 4           | [Booleans and Control Flow (R2)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 4     | Mar 9, 11:59pm           |
-| -           | Midterm Exam (assignments 1-4)                                                                                          | 1 - 4         | Mar 5 (in class)         |
-| 5           | [Vectors and Garbage Collection (R3)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 6, 11:59pm           |
-| 6           | Compiling Functions (R4)                                                                                                | Chapter 6     | Apr 20, 11:59pm          |
-| 7           | Compiling First-Class Functions (R5)                                                                                    | Chapter 7     | *TBA*                    |
-|             | Final Project                                                                                                           |               | *See below*              |
-| -           | Final Exam (assignments 5-7)                                                                                            | 5 - 7         | May 7, 1:30pm, Votey 207 |
+| Assignment  | Topics Covered                                                                                                          | Text Chapter  | Due Date         |
+| ----------: | ---------------------------------                                                                                       | ------------- | ---------------- |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)                 | Chapter 1 & 2 | Jan 27, 11:59pm  |
+| 2           | [Compiling R1 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 10, 11:59pm  |
+| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)                 | Chapter 3     | Feb 24, 11:59pm  |
+| 4           | [Booleans and Control Flow (R2)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 4     | Mar 9, 11:59pm   |
+| -           | Midterm Exam (assignments 1-4)                                                                                          | 1 - 4         | Mar 5 (in class) |
+| 5           | [Vectors and Garbage Collection (R3)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 6, 11:59pm   |
+| 6           | Compiling Functions (R4)                                                                                                | Chapter 6     | Apr 20, 11:59pm  |
+| 7           | Compiling First-Class Functions (R5)                                                                                    | Chapter 7     | *Canceled*       |
+|             | Final Project                                                                                                           |               | *See below*      |
+| -           | Final Exam (assignments 5-7)                                                                                            | 5 - 7         | *See below*      |
 
 # Class Schedule
 
-| Date         | Topic                                        | Assignment      |
-| -----------: | -----------------------------------          | ------------    |
-| Tue, Jan 14  | Welcome & Haskell                            |                 |
-| Thu, Jan 16  | ASTs & Interpreters                          |                 |
-| Tue, Jan 21  | x86 Assembly                                 |                 |
-| Thu, Jan 23  | Compiling R0                                 |                 |
-| Tue, Jan 28  | A1 review; Compiling R1 I                    | A1 Due (Monday) |
-| Thu, Jan 30  | Compiling R1 II                              |                 |
-| Tue, Feb 04  | Compiling R1 III                             |                 |
-| Thu, Feb 06  | Register allocation I                        |                 |
-| Tue, Feb 11  | A2 review; Register allocation II            | A2 Due (Monday) |
-| Thu, Feb 13  | Register allocation III                      |                 |
-| Tue, Feb 18  | Booleans & Typechecking                      |                 |
-| Thu, Feb 20  | Compiling R2 I                               |                 |
-| Tue, Feb 25  | A3 review; Compiling R2 II                   | A3 Due (Monday) |
-| Thu, Feb 27  | REVIEW FOR MIDTERM                           |                 |
-| Tue, Mar 03  | NO CLASS                                     |                 |
-| Thu, Mar 05  | MIDTERM                                      |                 |
-| Tue, Mar 10  | NO CLASS: Spring Break                       | A4 Due (Monday) |
-| Thu, Mar 12  | NO CLASS: Spring Break                       |                 |
-| Tue, Mar 17  | No class                                     |                 |
-| Thu, Mar 19  | A4 review; Vectors & Garbage collection I    |                 |
-| Tue, Mar 24  | Vectors & Garbage collection II              |                 |
-| Thu, Mar 26  | Vectors & Garbage collection III             |                 |
-| Tue, Mar 31  | Compiling Functions I                        |                 |
-| Thu, Apr 02  | Compiling Functions II                       |                 |
-| Tue, Apr 07  | A5 review; Compiling first-class functions I | A5 Due (Monday) |
-| Thu, Apr 09  | Compiling first-class functions II           |                 |
-| Tue, Apr 14  | Dynamic typing                               |                 |
-| Thu, Apr 16  | Objects & optimization                       |                 |
-| Tue, Apr 21  | A6 review; Binary & instruction sets         | A6 Due (Monday) |
-| Thu, Apr 23  | Review for final exam                        |                 |
-| Tue, Apr 28  | Project presentations                        |                 |
-| Thu, Apr 30  | Project presentations                        |                 |
-| Thu, May 07  | FINAL EXAM (1:30pm, Votey 207)               |                 |
+| Date         | Topic                                   | Assignment                     |
+| -----------: | -----------------------------------     | ------------                   |
+| Tue, Jan 14  | Welcome & Haskell                       |                                |
+| Thu, Jan 16  | ASTs & Interpreters                     |                                |
+| Tue, Jan 21  | x86 Assembly                            |                                |
+| Thu, Jan 23  | Compiling R0                            |                                |
+| Tue, Jan 28  | A1 review; Compiling R1 I               | A1 Due (Monday)                |
+| Thu, Jan 30  | Compiling R1 II                         |                                |
+| Tue, Feb 04  | Compiling R1 III                        |                                |
+| Thu, Feb 06  | Register allocation I                   |                                |
+| Tue, Feb 11  | A2 review; Register allocation II       | A2 Due (Monday)                |
+| Thu, Feb 13  | Register allocation III                 |                                |
+| Tue, Feb 18  | Booleans & Typechecking                 |                                |
+| Thu, Feb 20  | Compiling R2 I                          |                                |
+| Tue, Feb 25  | A3 review; Compiling R2 II              | A3 Due (Monday)                |
+| Thu, Feb 27  | REVIEW FOR MIDTERM                      |                                |
+| Tue, Mar 03  | NO CLASS                                |                                |
+| Thu, Mar 05  | MIDTERM                                 |                                |
+| Tue, Mar 10  | NO CLASS: Spring Break                  | A4 Due (Monday)                |
+| Thu, Mar 12  | NO CLASS: Spring Break                  |                                |
+| Tue, Mar 17  | No class                                |                                |
+| Thu, Mar 19  | A4 review                               |                                |
+| Tue, Mar 24  | Vectors & Garbage collection I          |                                |
+| Thu, Mar 26  | Vectors & Garbage collection II         |                                |
+| Tue, Mar 31  | Vectors & Garbage collection III        |                                |
+| Thu, Apr 02  | A5 walkthrough                          |                                |
+| Tue, Apr 07  | A5 review                               | A5 Due (Monday)                |
+| Thu, Apr 09  | Compiling functions I                   |                                |
+| Tue, Apr 14  | Compiling functions II                  |                                |
+| Thu, Apr 16  | Compiling first-class functions         | Project proposals due (Friday) |
+| Tue, Apr 21  | A6 review                               | A6 Due (Monday)                |
+| Thu, Apr 23  | Dynamic typing; objects                 |                                |
+| Tue, Apr 28  | Optimization; binary & instruction sets |                                |
+| Thu, Apr 30  | Review for final exam                   |                                |
+| Mon, May 04  |                                         | Final projects due (Monday)    |
+| Thu, May 07  | FINAL EXAM (take-home)                  | Final exam due (Thursday)      |
+|              |                                         |                                |
 
 
 # Final Projects
@@ -355,6 +360,7 @@ The goal of the final project is for you to design and implement your own compil
   - A description of your desired compiler feature (language feature or compiler extension - e.g. "add objects and class definitions with inheritance")
   - A description of the *most scaled-back feasible version* of your compiler feature - e.g. "use vectors containing values and functions to represent objects")
   - A representative test case to demonstrate your new feature
+  - Additionally, sign up for a *project meeting* between your group and the instructor, to discuss your proposal, on MS Teams during the week of 4/20/20
 - Your *implementation*, as an extension to the course compiler
   - Include at least 10 representative test cases demonstrating your new feature
 - A *README* of at most 1 page, describing the approach you took in your implementation, and features you planned but did not implement
@@ -362,15 +368,18 @@ The goal of the final project is for you to design and implement your own compil
   - A description of the new feature, including a test case
   - Your implementation approach
   - A description of challenges you encountered / parts you were not able to implement
+  - Project presentations will take place on MS Teams during the week of 5/4/20
 
 ## Schedule & Grading
 
 The final project is worth 14% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
-| Deliverable              | Due Date                     | Grade Percent | Turn In    |
-| -----------------------: | -------------------          | ------------- | --------   |
-| Project Proposal         | 4/6/20 at 11:59pm            | 10%           | Blackboard |
-| Implementation & README  | 5/4/20 at 11:59pm            | 60%           | Blackboard |
-| Project Presentations    | 4/28/20 and 4/30/20 in class | 30%           | In class   |
+| Deliverable                       | Due Date            | Grade Percent | Turn In    |
+| -----------------------:          | ------------------- | ------------- | --------   |
+| Project Proposal & Meeting Signup | 4/17/20 at 11:59pm  | 10%           | Blackboard |
+| Project Meetings                  | 4/20/20 - 4/24/20   | 10%           | MS Teams   |
+| Implementation & README           | 5/4/20 at 11:59pm   | 50%           | Blackboard |
+| Project Presentations             | 5/4/20 - 5/7/20     | 30%           | MS Teams   |
+
 
 
