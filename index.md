@@ -7,6 +7,8 @@ layout: default
 
 ## Announcements
 
+- **4/08/20**: [Assignment 6](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) has been posted.
+
 - **4/07/20**: Schedule updated.
 
 - **3/24/20**: [Assignment 5](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) has been posted.
@@ -274,7 +276,7 @@ the end of the talk.
 | 4           | [Booleans and Control Flow (R2)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 4     | Mar 9, 11:59pm   |
 | -           | Midterm Exam (assignments 1-4)                                                                                          | 1 - 4         | Mar 5 (in class) |
 | 5           | [Vectors and Garbage Collection (R3)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 6, 11:59pm   |
-| 6           | Compiling Functions (R4)                                                                                                | Chapter 6     | Apr 20, 11:59pm  |
+| 6           | [Compiling Functions (R4)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md)            | Chapter 6     | Apr 20, 11:59pm  |
 | 7           | Compiling First-Class Functions (R5)                                                                                    | Chapter 7     | *Canceled*       |
 |             | Final Project                                                                                                           |               | *See below*      |
 | -           | Final Exam (assignments 5-7)                                                                                            | 5 - 7         | *See below*      |
