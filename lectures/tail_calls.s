@@ -7,11 +7,6 @@ f:
         //  segfaults because stack space runs out!
         callq f
         
-        // Tail-call optimization:
-        //  1. pop the *current* stack frame
-        //  2. jmp instead of callq
-
-        
         popq %rbp
         retq
 
