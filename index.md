@@ -319,12 +319,70 @@ the end of the talk.
 | Thu, Apr 30  | Review for final exam                   |                                |
 | Mon, May 04  |                                         | Final projects due (Monday)    |
 | Thu, May 07  | FINAL EXAM (take-home)                  | Final exam due (Thursday)      |
-|              |                                         |                                |
 
 
 # Final Projects
 
-## Project Ideas
+## Suggested Project Ideas
+
+For each of these project ideas, a parser and lecture video will be
+provided.
+
+### Records (Simple Object System)
+
+Extend the vectors present in R4 to *records* with *named
+fields*. Record types are sufficient to implement a simple object
+system, in which an object's methods are stored as functions in record
+fields. There is no chapter in the textbook describing this extension,
+but a parser and compiler template will be provided, as well as a
+lecture video.
+
+Example:
+
+```
+record Point {
+  add: (Point, Point) -> Point,
+  x: Integer,
+  y: Integer
+}
+
+def addPoint(self: Point, other: Point): Point = {
+  Point(self.add, self.x + other.x, other.x + other.y)
+}
+
+let p1 = Point(addPoint, 1, 2) in
+let p2 = Point(addPoint, 3, 4) in
+p1.add(p1, p2)
+```
+
+### Anonymous (Lexically-scoped) Functions
+
+Extend the R4 language to support *anonmyous functions* (i.e. "lambda"
+functions), as described in chapter 7 of the textbook. Your anonymous
+functions should be lexically scoped. A parser, compiler template, and
+lecture video will be provided.
+
+Example:
+
+```
+let x = 5 in
+let f = lambda y: Integer -> x + y
+in f(6)
+```
+
+### Dynamic Typing
+
+Extend the R4 language to support *dynamic typing* as described in
+chapter 8 of the textbook. A parser, compiler template, and lecture
+video will be provided.
+
+Example:
+
+```
+42 == (if 5 == 5 then 42 else True)
+```
+
+## Other Project Ideas
 
   * anonymous functions
   * cons lists
