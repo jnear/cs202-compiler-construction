@@ -115,7 +115,7 @@ language, like Python. The function above is written as:
 
 Again, this function works for any input type.
 
-### Compiling R6 to R7
+### Compiling R7 to R6
 
 Our strategy for compiling R7 is to compile it to R6 by inserting type
 annotations. The rule of thumb is: *anywhere a type annotation is
