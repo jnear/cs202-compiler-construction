@@ -78,33 +78,35 @@ Consider the following heap state (root stack and from-space):
 5. Circle the *tail calls* in the following program.
 
 ```
-    (define (fact [x : Integer]) : Integer
-      (if (eq? x 0)
-          1
-          (* x (fact (+ x -1)))))
-    
-    (define (* [x : Integer] [y : Integer]) : Integer
-      (if (eq? x 0)
-          1
-          (+ y (* (+ x -1) y))))
-    
-    (fact 5)
+    def fact(x: Integer): Integer = {
+      if x == 0
+      then 1
+      else times(x, fact(x + -1), 0)
+    }
+
+    def times(x: Integer, y: Integer): Integer = {
+      if x == 0
+      then 0
+      else y + times(x + -1, y)
+    }
+
+    fact(5)
 ```
 
 Consider the following program in R4:
 
 ```
-    (define (fn [a : Integer]
-                [b : Integer]
-                [c : Integer]
-                [d : Integer]
-                [e : Integer]
-                [f : Integer]
-                [g : Integer]
-                [h : Integer]) : Integer
-      (+ a (+ b (+ c (+ d (+ e (+ f (+ g h))))))))
+    def fn(a : Integer,
+           b : Integer,
+           c : Integer,
+           d : Integer,
+           e : Integer,
+           f : Integer,
+           g : Integer,
+           h : Integer) : Integer
+      a + b + c + d + e + f + g + h)
 
-    (fn 1 2 3 4 5 6 7 8)
+    fn(1,2,3,4,5,6,7,8)
 ```
 
 6. Write the output of the `limit-functions` pass on this program.
@@ -146,7 +148,7 @@ Consider the following x86 program.
 
 ## Anonymous functions (lambda)
 
-8. What are the free variables of the lambda expression `(lambda (x) (+ x y))`?
+8. What are the free variables of the lambda expression `lambda (x: Integer) -> x + y`?
 
 Consider the following program:
 
