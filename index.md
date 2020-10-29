@@ -3,35 +3,23 @@ title: CS 202: Compiler Construction
 layout: default
 ---
 
-# UVM CS202: Compiler Construction (Spring 2020)
+# UVM CS202: Compiler Construction (Spring 2021)
 
 ## Announcements
 
-- **4/08/20**: [Assignment 6](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) has been posted.
+- **10/29/20**: Update for spring 2021. This course will be in the
+  **remote modality** for spring 2021. There will be no exams;
+  instead, grades will be based on in-class exercises, homework
+  assignments, and a final project. In spring 2021, the course will be
+  **taught in Python**. Note that portions of this page haven't been
+  updated yet for spring 2021.
 
-- **4/07/20**: Schedule updated.
-
-- **3/24/20**: [Assignment 5](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) has been posted.
-
-- **3/18/20**: The course has moved to remote instruction. I have updated the schedule. Please see Blackboard announcements for more information.
-
-- **2/26/20**: The updated [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
-
-- **2/25/20**: [Assignment 4](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) has been posted.
-
-- **2/20/20**: More guest lecture opportunities have been posted below (and announced on Blackboard).
-
-- **2/11/20**: [Assignment 3](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md) has been posted.
-
-- **2/10/20**: The first (and possibly only) guest lecture opportunity for extra credit has been announced. The guest lecture will be on Tuesday, Feb 11, 12:30-1:30 in Dewey 314.
-
-- **1/27/20**: [Assignment 2](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) has been posted.
 
 ## Administrative
 
-- **Lecture**: None (asynchronous remote instruction). See video postings on Blackboard.
+- **Lecture**: TBA
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Tuesdays and Thursdays, 2:50pm - 4pm (on Microsoft Teams)
+- **Office hours**: TBA (on Microsoft Teams)
 
 ## Course Description
 
