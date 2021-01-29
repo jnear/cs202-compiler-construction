@@ -18,7 +18,7 @@ layout: default
 
 - **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am (on MS Teams)
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: TBA (on MS Teams)
+- **Office hours**: Mondays, 3-4pm; Fridays, 4-5pm (on MS Teams)
 
 ## Course Description
 
