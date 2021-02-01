@@ -76,12 +76,21 @@ The primary textbook we will use for this course is:
 - [Essentials of Compilation](https://github.com/jnear/cs202-compiler-construction/blob/master/book.pdf)  
   Jeremy Siek.
 
-Code and resources for assignments:
+Other course resources:
 
-- Assignment code is [on the course code repository](https://github.com/jnear/cs202-assignments)
-- Online compilers are available for each assignment (see links in the assignment description)
+- **Announcements** will be posted on the course Blackboard
+- **Videos** from lecture are [available here](https://web.microsoftstream.com/group/13b5be7a-c4a1-41e9-b582-b81c8d8b19f7?view=videos)
+- **Homework assignments**
+  - Descriptions available in the list of assignments below
+  - [Download assignment code on the course code repository](https://github.com/jnear/cs202-assignments)
+  - Online compilers are available for each assignment (see links in the assignment description)
+  - Turn in homework assignments on Blackboard
+- **In-class exercises**
+  - [Download notebooks here](https://github.com/jnear/cs202-compiler-construction/tree/master/exercises)
+  - Turn in notebook files on Blackboard
 
-Other resources:
+
+Additional/fun resources:
 
 - Code from lectures is [available on Github](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures)
 - The [midterm review sheet](https://github.com/jnear/cs202-compiler-construction/tree/master/lectures/midterm-review.md) is available
