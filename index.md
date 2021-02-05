@@ -86,7 +86,7 @@ Other course resources:
   - Online compilers are available for each assignment (see links in the assignment description)
   - Turn in homework assignments on Blackboard
 - **In-class exercises**
-  - [Download notebooks here](https://github.com/jnear/cs202-compiler-construction/tree/master/exercises)
+  - [Download notebooks here](https://github.com/jnear/cs202-assignments/tree/master/exercises)
   - Turn in notebook files on Blackboard
 
 
