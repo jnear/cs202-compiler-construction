@@ -1,22 +1,22 @@
 # Assignment 2
 
-**Solve the exercise(s) by modifying the `Compiler.hs` file in the `a2`
+**Solve the exercise(s) by modifying the `compiler.py` file in the `a2`
 directory of the [assignments
 repository](https://github.com/jnear/cs202-assignments) and submit
-your `Compiler.hs` file on the course Blackboard under "Assignment
+your `compiler.py` file on the course Blackboard under "Assignment
 2".**
 
-**Due: Monday, Feb 10, 11:59pm**
+**Due: Monday, Feb 22, 11:59pm**
 
-Complete `Compiler.hs` so that it implements a compiler from a subset
-of the R1 language to x86 assembly. The required subset is defined by
-the grammar below.
+Complete `compiler.py` so that it implements a compiler from a subset
+of the RVar language to x86 assembly. The required subset is defined by
+the grammar below (and by the AST definition in the assignments repo).
    
 ```
-R1Exp ::= <int>
+RVarExp ::= <int>
        |  <variable>
-       |  R1Exp + R1Exp
-       |  let <variable> = R1Exp in R1Exp
+       |  RVarExp + RVarExp
+       |  let <variable> = RVarExp in RVarExp
 ```
 
 You will need to complete the definitions of the following passes:
@@ -31,18 +31,19 @@ You will need to complete the definitions of the following passes:
 This assignment corresponds roughly to the following exercises in the
 textbook:
 
-- Exercise 2 (page 29)
-- Exercise 3 (page 29)
-- Exercise 4 (page 31)
-- Exercise 5 (page 33)
-- Exercise 6 (page 34)
-- Exercise 7 (page 35)
+- Exercise 1
+- Exercise 3
+- Exercise 4
+- Exercise 5
+- Exercise 6
+- Exercise 7
 
 ## Challenge Exercise
 
-Implement a random expression generator that generates correct
-expressions. Write a function called `randomTest` which generates 100
-test cases and runs your compiler on them.
+Implement a partial evaluator for the RVar language. This challenge
+exercise corresponds to Exercise 9 on page 41 of the textbook.
+
+Optionally, extend your partial evaluator by completing Exercise 10.
 
 **Note**: if you are an undergraduate student, and you solve the
 challenge exercise for extra credit, please note this in a comment at

@@ -253,16 +253,16 @@ e-mail me your notes after the talk.
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                          | Text Chapter  | Due Date         |
-| ----------: | ---------------------------------                                                                       | ------------- | ---------------- |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Feb 8, 11:59pm   |
-| 2           | Compiling R1 to x86                                                                                     | Chapter 2     | Feb 22, 11:59pm  |
-| 3           | Register Allocation                                                                                     | Chapter 3     | Mar 8, 11:59pm   |
-| 4           | Booleans and Control Flow (R2)                                                                          | Chapter 4     | Mar 22, 11:59pm  |
-| 5           | Vectors and Garbage Collection (R3)                                                                     | Chapter 5     | Apr 5, 11:59pm   |
-| 6           | Compiling Functions (R4)                                                                                | Chapter 6     | Apr 19, 11:59pm  |
-| 7           | Compiling First-Class Functions (R5)                                                                    | Chapter 7     | May 3, 11:59pm   |
-|             | Final Project                                                                                           |               | *See below*      |
+| Assignment  | Topics Covered                                                                                            | Text Chapter  | Due Date         |
+| ----------: | ---------------------------------                                                                         | ------------- | ---------------- |
+| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)   | Chapter 1 & 2 | Feb 8, 11:59pm   |
+| 2           | [Compiling RVar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) | Chapter 2     | Feb 22, 11:59pm  |
+| 3           | Register Allocation                                                                                       | Chapter 3     | Mar 8, 11:59pm   |
+| 4           | Booleans and Control Flow (R2)                                                                            | Chapter 4     | Mar 22, 11:59pm  |
+| 5           | Vectors and Garbage Collection (R3)                                                                       | Chapter 5     | Apr 5, 11:59pm   |
+| 6           | Compiling Functions (R4)                                                                                  | Chapter 6     | Apr 19, 11:59pm  |
+| 7           | Compiling First-Class Functions (R5)                                                                      | Chapter 7     | May 3, 11:59pm   |
+|             | Final Project                                                                                             |               | *See below*      |
 
 # Class Schedule
 
