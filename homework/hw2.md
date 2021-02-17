@@ -40,14 +40,7 @@ textbook:
 
 ## Challenge Exercise
 
-Implement a partial evaluator for the RVar language. This challenge
-exercise corresponds to Exercise 9 on page 41 of the textbook.
-
-Optionally, extend your partial evaluator by completing Exercise 10.
-
-**Note**: if you are an undergraduate student, and you solve the
-challenge exercise for extra credit, please note this in a comment at
-the top of your file.
+No challenge exercise for this assignment.
 
 ## Online Compiler
 
