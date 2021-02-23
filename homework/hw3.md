@@ -1,18 +1,18 @@
 # Assignment 3
 
-**Solve the exercise(s) by modifying the `Compiler.hs` file in the `a3`
+**Solve the exercise(s) by modifying the `compiler.py` file in the `a3`
 directory of the [assignments
 repository](https://github.com/jnear/cs202-assignments) and submit
-your `Compiler.hs` file on the course Blackboard under "Assignment
+your `compiler.py` file on the course Blackboard under "Assignment
 3".**
 
-**Due: Monday, February 24, 11:59pm**
+**Due: Monday, March 8, 11:59pm**
 
-Extend your compiler from Assignment 3 to perform register
+Extend your compiler from Assignment 2 to perform register
 allcation. Your new compiler should handle the same source language as
-Assignment 3, but should be reasonably good at assigning registers.
+Assignment 2, but should be reasonably good at assigning registers.
 
-In addition to the exercises you solved in Assignment 3, you will need
+In addition to the exercises you solved in Assignment 2, you will need
 to solve:
 
 - Exercise 11
