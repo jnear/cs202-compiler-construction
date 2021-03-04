@@ -247,9 +247,15 @@ During the semester there will be ~5 guest lectures from visiting
 faculty on MS Teams. I will give 0.5% extra credit towards your final
 grade for each of these lectures that you attend. To receive extra
 credit, you must take notes in person during the lecture, and then
-e-mail me your notes after the talk.
+e-mail me your notes after the talk. The guest lectures will take
+place at 12-1pm on the following dates:
 
- - Guest lecture dates TBA
+ - Friday, March 5
+ - Tuesday, March 9
+ - Friday, March 12
+ - Monday, March 15
+ - Wednesday, March 17
+
 
 # Assignments
 
