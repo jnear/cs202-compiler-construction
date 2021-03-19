@@ -265,9 +265,8 @@ place at 12-1pm on the following dates:
 | 2           | [Compiling RVar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)           | Chapter 2     | Feb 22, 11:59pm  |
 | 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)             | Chapter 3     | Mar 8, 11:59pm   |
 | 4           | [Booleans and Control Flow (RIf)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md) | Chapter 4     | Mar 22, 11:59pm  |
-| 5           | Vectors and Garbage Collection (R3)                                                                                 | Chapter 5     | Apr 5, 11:59pm   |
-| 6           | Compiling Functions (R4)                                                                                            | Chapter 6     | Apr 19, 11:59pm  |
-| 7           | Compiling First-Class Functions (R5)                                                                                | Chapter 7     | May 3, 11:59pm   |
+| 5           | Vectors and Garbage Collection (R3)                                                                                 | Chapter 5     | Apr 12, 11:59pm  |
+| 6           | Compiling Functions (R4)                                                                                            | Chapter 6     | May 3, 11:59pm   |
 |             | Final Project                                                                                                       |               | *See below*      |
 
 # Class Schedule
@@ -284,13 +283,13 @@ place at 12-1pm on the following dates:
 | Mar 1        | Register allocation                            |                 |
 | Mar 8        | Booleans & Typechecking                        | A3 Due (Monday) |
 | Mar 15       | Compiling RIf                                  |                 |
-| Mar 22       | Vectors & Garbage collection I                 | A4 Due (Monday) |
-| Mar 29       | Vectors & Garbage collection II                |                 |
-| Apr 5        | Compiling functions I                          | A5 Due (Monday) |
-| Apr 12       | Compiling functions II                         |                 |
-| Apr 19       | Compiling first-class functions I              | A6 Due (Monday) |
-| Apr 26       | Compiling first-class functions I              |                 |
-| May 3        | Dynamic typing & objects                       | A7 Due (Monday) |
+| Mar 22       | *Intermission*                                 | A4 Due (Monday) |
+| Mar 29       | Vectors & Garbage collection I                 |                 |
+| Apr 5        | Vectors & Garbage collection II                |                 |
+| Apr 12       | Compiling functions I                          | A5 Due (Monday) |
+| Apr 19       | Compiling functions II                         |                 |
+| Apr 26       | Compiling first-class functions                |                 |
+| May 3        | Dynamic typing & objects                       | A6 Due (Monday) |
 | May 10       | Optimization; binary & instruction sets        |                 |
 
 
