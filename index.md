@@ -265,7 +265,7 @@ place at 12-1pm on the following dates:
 | 2           | [Compiling RVar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 22, 11:59pm  |
 | 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 3     | Mar 8, 11:59pm   |
 | 4           | [Booleans and Control Flow (RIf)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)       | Chapter 4     | Mar 22, 11:59pm  |
-| 5           | [Vectors and Garbage Collection (Rvec)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 12, 11:59pm  |
+| 5           | [Vectors and Garbage Collection (Rvec)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 14, 11:59pm  |
 | 6           | Compiling Functions (Rfun)                                                                                                | Chapter 6     | May 3, 11:59pm   |
 |             | Final Project                                                                                                             |               | *See below*      |
 
@@ -274,23 +274,23 @@ place at 12-1pm on the following dates:
 **Note: no class on Wednesday, March 24**
 
 
-| Week of      | Topic                                          | Assignment      |
-| -----------: | -----------------------------------            | ------------    |
-| Feb 1        | ASTs, Interpreters, x86 Assembly, Compiling R0 |                 |
-| Feb 8        | Compiling RInt                                 | A1 Due (Monday) |
-| Feb 15       | Compiling RInt                                 |                 |
-| Feb 22       | Register allocation                            | A2 Due (Monday) |
-| Mar 1        | Register allocation                            |                 |
-| Mar 8        | Booleans & Typechecking                        | A3 Due (Monday) |
-| Mar 15       | Compiling RIf                                  |                 |
-| Mar 22       | *Intermission*                                 | A4 Due (Monday) |
-| Mar 29       | Vectors & Garbage collection I                 |                 |
-| Apr 5        | Vectors & Garbage collection II                |                 |
-| Apr 12       | Compiling functions I                          | A5 Due (Monday) |
-| Apr 19       | Compiling functions II                         |                 |
-| Apr 26       | Compiling first-class functions                |                 |
-| May 3        | Dynamic typing & objects                       | A6 Due (Monday) |
-| May 10       | Optimization; binary & instruction sets        |                 |
+| Week of      | Topic                                          | Assignment         |
+| -----------: | -----------------------------------            | ------------       |
+| Feb 1        | ASTs, Interpreters, x86 Assembly, Compiling R0 |                    |
+| Feb 8        | Compiling RInt                                 | A1 Due (Monday)    |
+| Feb 15       | Compiling RInt                                 |                    |
+| Feb 22       | Register allocation                            | A2 Due (Monday)    |
+| Mar 1        | Register allocation                            |                    |
+| Mar 8        | Booleans & Typechecking                        | A3 Due (Monday)    |
+| Mar 15       | Compiling RIf                                  |                    |
+| Mar 22       | *Intermission*                                 | A4 Due (Monday)    |
+| Mar 29       | Vectors & Garbage collection I                 |                    |
+| Apr 5        | Vectors & Garbage collection II                |                    |
+| Apr 12       | Compiling functions I                          | A5 Due (Wednesday) |
+| Apr 19       | Compiling functions II                         |                    |
+| Apr 26       | Compiling first-class functions                |                    |
+| May 3        | Dynamic typing & objects                       | A6 Due (Monday)    |
+| May 10       | Optimization; binary & instruction sets        |                    |
 
 
 # Final Projects
