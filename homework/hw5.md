@@ -6,7 +6,7 @@ repository](https://github.com/jnear/cs202-assignments) and submit
 your `compiler.py` file on the course Blackboard under "Assignment
 5".**
 
-**Due: Monday, April 12, 11:59pm**
+**Due: Wednesday, April 14, 11:59pm**
 
 
 Extend your compiler from Assignment 4 to compile the Rvec language, as
