@@ -266,7 +266,7 @@ place at 12-1pm on the following dates:
 | 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 3     | Mar 8, 11:59pm   |
 | 4           | [Booleans and Control Flow (RIf)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)       | Chapter 4     | Mar 22, 11:59pm  |
 | 5           | [Vectors and Garbage Collection (Rvec)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 14, 11:59pm  |
-| 6           | Compiling Functions (Rfun)                                                                                                | Chapter 6     | May 3, 11:59pm   |
+| 6           | [Compiling Functions (Rfun)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md)            | Chapter 6     | May 3, 11:59pm   |
 |             | Final Project                                                                                                             |               | *See below*      |
 
 # Class Schedule
