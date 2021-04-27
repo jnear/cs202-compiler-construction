@@ -302,7 +302,7 @@ provided.
 
 ### Records (Simple Object System)
 
-Extend the vectors present in R4 to *records* with *named
+Extend the vectors present in RFun to *records* with *named
 fields*. Record types are sufficient to implement a simple object
 system, in which an object's methods are stored as functions in record
 fields. There is no chapter in the textbook describing this extension,
@@ -327,9 +327,24 @@ let p2 = Point(addPoint, 3, 4) in
 p1.add(p1, p2)
 ```
 
+### Anonymous (Lexically-scoped) Functions
+
+Extend the RFun language to support *anonmyous functions* (i.e. "lambda"
+functions), as described in chapter 7 of the textbook. Your anonymous
+functions should be lexically scoped. A parser, compiler template, and
+lecture video will be provided.
+
+Example:
+
+```
+let x = 5 in
+let f = lambda y: Integer -> x + y
+in f(6)
+```
+
 ### Dynamic Typing
 
-Extend the R4 language to support *dynamic typing* as described in
+Extend the RFun language to support *dynamic typing* as described in
 chapter 8 of the textbook. A parser, compiler template, and lecture
 video will be provided.
 
