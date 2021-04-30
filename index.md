@@ -407,7 +407,7 @@ The final project is worth 14% of your final grade. The schedule for final proje
 
 | Deliverable              | Due Date                  | Grade Percent | Turn In    |
 | -----------------------: | -------------------       | ------------- | --------   |
-| Project Proposal         | Monday, May 3 at 11:59pm  | 10%           | Blackboard |
+| Project Proposal         | Friday, May 7 at 11:59pm  | 10%           | Blackboard |
 | Implementation & README  | Monday, May 17 at 11:59pm | 50%           | Blackboard |
 | Project Presentations    | Monday, May 17 at 11:59pm | 30%           | Blackboard |
 
