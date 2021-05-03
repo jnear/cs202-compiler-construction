@@ -6,7 +6,7 @@ repository](https://github.com/jnear/cs202-assignments) and submit
 your `compiler.py` file on the course Blackboard under "Assignment
 6".**
 
-**Due: Monday, May 3, 11:59pm**
+**Due: Tuesday, May 4, 11:59pm**
 
 Extend your compiler to compile the Rfun language outlined in Chapter
 6 of the textbook.
