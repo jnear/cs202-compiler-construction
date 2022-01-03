@@ -3,22 +3,13 @@ title: CS 202: Compiler Construction
 layout: default
 ---
 
-# UVM CS202: Compiler Construction (Spring 2021)
-
-## Announcements
-
-- **1/29/21**: Update for spring 2021. This course will be in the
-  **remote modality** for spring 2021. There will be no exams;
-  instead, grades will be based on in-class exercises, homework
-  assignments, and a final project. In spring 2021, the course will be
-  **taught in Python**.
-
+# UVM CS202: Compiler Construction (Spring 2022)
 
 ## Administrative
 
-- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am (on MS Teams)
+- **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Votey Hall 303
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Mondays, 3-4pm; Fridays, 4-5pm (on MS Teams)
+- **Office hours**: TBA
 
 ## Course Description
 
@@ -79,7 +70,6 @@ The primary textbook we will use for this course is:
 Other course resources:
 
 - **Announcements** will be posted on the course Blackboard
-- **Videos** from lecture are [available here](https://web.microsoftstream.com/group/13b5be7a-c4a1-41e9-b582-b81c8d8b19f7?view=videos)
 - **Homework assignments**
   - Descriptions available in the list of assignments below
   - [Download assignment code on the course code repository](https://github.com/jnear/cs202-assignments)
@@ -103,9 +93,11 @@ Additional/fun resources:
 
 Your grade for the course will be determined as follows:
 
-- 7 homework assignments (8% each; 56% total)
-- in-class exercises (30%)
-- final project (14%)
+- 6 homework assignments (10% each; 60% total)
+- in-class weekly exercises (20% total)
+- final project (10%)
+- midterm exam (5%)
+- final exam (5%)
 
 Your final grade will be determined by summing the total number of
 points awarded and calculating the percentage of the total possible
@@ -199,7 +191,8 @@ complete.
 
 ## Exams
 
-There will be no exams.
+There will be two exams: a midterm and a final. You will be allowed
+one page of notes for each exam. See the schedule below for the dates.
 
 ## Final Projects
 
@@ -241,59 +234,53 @@ integrity misconduct will be treated according to [UVM's Code of
 Academic
 Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
-## Guest Lectures & Extra Credit
-
-During the semester there will be ~5 guest lectures from visiting
-faculty on MS Teams. I will give 0.5% extra credit towards your final
-grade for each of these lectures that you attend. To receive extra
-credit, you must take notes in person during the lecture, and then
-e-mail me your notes after the talk. The guest lectures will take
-place at 12-1pm on the following dates:
-
- - Friday, March 5
- - Tuesday, March 9
- - Friday, March 12
- - Monday, March 15
- - Wednesday, March 17
-
 
 # Assignments
 
-| Assignment  | Topics Covered                                                                                                            | Text Chapter  | Due Date         |
-| ----------: | ---------------------------------                                                                                         | ------------- | ---------------- |
-| 1           | [Compiling R0 to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)                   | Chapter 1 & 2 | Feb 8, 11:59pm   |
-| 2           | [Compiling RVar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)                 | Chapter 2     | Feb 22, 11:59pm  |
-| 3           | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)                   | Chapter 3     | Mar 8, 11:59pm   |
-| 4           | [Booleans and Control Flow (RIf)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)       | Chapter 4     | Mar 22, 11:59pm  |
-| 5           | [Vectors and Garbage Collection (Rvec)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md) | Chapter 5     | Apr 14, 11:59pm  |
-| 6           | [Compiling Functions (Rfun)](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md)            | Chapter 6     | May 4, 11:59pm   |
-|             | Final Project                                                                                                             |               | *See below*      |
+| Assignment  | Topics Covered                                                                                            | Text Chapter  | Due Date         |
+| ----------: | ---------------------------------                                                                         | ------------- | ---------------- |
+| 1           | [Compiling Lmin to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 31, 11:59pm  |
+| 2           | Compiling Lvar to x86                                                                                     | Chapter 2     | Feb 14, 11:59pm  |
+| 3           | Register Allocation                                                                                       | Chapter 3     | Feb 28, 11:59pm  |
+| 4           | Booleans and Control Flow                                                                                 | Chapter 4     | Mar 21, 11:59pm  |
+| 5           | Vectors and Garbage Collection                                                                            | Chapter 5     | Apr 4, 11:59pm   |
+| 6           | Compiling Functions                                                                                       | Chapter 6     | Apr 18, 11:59pm  |
+|             | Final Project                                                                                             |               | *See below*      |
 
 # Class Schedule
 
-**Note: no class on Wednesday, March 24**
+**Note: no class on the following dates:**
+- Monday, January 17 (MLK day)
+- Monday, February 21 (Presidents' day)
+- March 7-11 (Spring break)
 
+**Exams**:
+- Midterm exam: Friday, March 4, in class
+- Final exam: Monday, May 9, 10:30-11:30am, Votey 303
 
-| Week of      | Topic                                          | Assignment         |
-| -----------: | -----------------------------------            | ------------       |
-| Feb 1        | ASTs, Interpreters, x86 Assembly, Compiling R0 |                    |
-| Feb 8        | Compiling RInt                                 | A1 Due (Monday)    |
-| Feb 15       | Compiling RInt                                 |                    |
-| Feb 22       | Register allocation                            | A2 Due (Monday)    |
-| Mar 1        | Register allocation                            |                    |
-| Mar 8        | Booleans & Typechecking                        | A3 Due (Monday)    |
-| Mar 15       | Compiling RIf                                  |                    |
-| Mar 22       | *Intermission*                                 | A4 Due (Monday)    |
-| Mar 29       | Vectors & Garbage collection I                 |                    |
-| Apr 5        | Vectors & Garbage collection II                |                    |
-| Apr 12       | Compiling functions I                          | A5 Due (Wednesday) |
-| Apr 19       | Compiling functions II                         |                    |
-| Apr 26       | Compiling first-class functions                |                    |
-| May 3        | Dynamic typing & objects                       | A6 Due (Tuesday)   |
-| May 10       | Optimization; binary & instruction sets        |                    |
+| Week of      | Topic                                              | Assignment                     |
+| -----------: | -----------------------------------                | ------------                   |
+| Jan 17       | ASTs, Interpreters, x86 Assembly (no class Monday) |                                |
+| Jan 24       | Compiling Lmin                                     |                                |
+| Jan 31       | Compiling Lvar                                     | A1 Due (Monday)                |
+| Feb 7        | Register allocation                                |                                |
+| Feb 14       | Register allocation                                | A2 Due (Monday)                |
+| Feb 21       | Booleans & Typechecking (no class Monday)          |                                |
+| Feb 28       | Compiling Lif (midterm exam Friday)                | A3 Due (Monday)                |
+| Mar 7        | *Spring Break* (no class)                          |                                |
+| Mar 14       | Vectors & Garbage collection I                     |                                |
+| Mar 21       | Vectors & Garbage collection II                    | A4 Due (Monday)                |
+| Mar 28       | Compiling functions I                              |                                |
+| Apr 4        | Compiling functions II                             | A5 Due (Monday)                |
+| Apr 11       | Compiling first-class functions I                  | Project Proposals Due (Friday) |
+| Apr 18       | Compiling first-class functions II                 | A6 Due (Monday)                |
+| Apr 25       | Dynamic typing & objects                           | Project Milestone (Friday)     |
+| May 2        | Optimization; binary & instruction sets            | Final Project Due (Friday)     |
 
 
 # Final Projects
+
+**Note: this section has not yet been updated for Spring 2022.**
 
 ## Suggested Project Ideas
 
@@ -405,11 +392,13 @@ The goal of the final project is for you to design and implement your own compil
 
 The final project is worth 14% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
-| Deliverable              | Due Date                  | Grade Percent | Turn In    |
-| -----------------------: | -------------------       | ------------- | --------   |
-| Project Proposal         | Friday, May 7 at 11:59pm  | 10%           | Blackboard |
-| Implementation & README  | Monday, May 17 at 11:59pm | 50%           | Blackboard |
-| Project Presentations    | Monday, May 17 at 11:59pm | 30%           | Blackboard |
+| Deliverable                | Due Date                  | Grade Percent | Turn In    |
+| -----------------------:   | -------------------       | ------------- | --------   |
+| Project Proposal           | Friday, Apr 15 at 11:59pm | 10%           | Blackboard |
+| Project Milestone          | Friday, Apr 29 at 11:59pm | 10%           | Blackboard |
+| Implementation & README    | Monday, May 6 at 11:59pm  | 50%           | Blackboard |
+| Project Presentation Video | Monday, May 6 at 11:59pm  | 30%           | Blackboard |
+
 
 
 
