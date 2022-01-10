@@ -94,7 +94,8 @@ Additional/fun resources:
 Your grade for the course will be determined as follows:
 
 - 6 homework assignments (10% each; 60% total)
-- in-class weekly exercises (20% total)
+- 6 self-review assignments (5% total)
+- in-class weekly exercises (15% total)
 - final project (10%)
 - midterm exam (5%)
 - final exam (5%)
@@ -180,6 +181,23 @@ Assignments will be graded according to the following rubric:
 | 60    | Significant work on at least half of the passes           |
 | <60   | Missing passes                                            |
 
+## Self-Review Assignments
+
+Each homework assignment will have a corresponding *self-review
+assignment* due one week later. The self-review assignment is an
+opportunity for students to describe and explain the differences
+between their solution and the instructor solution.
+
+For each pass of the compiler, your self-review should give short
+(1-paragraph) answers for two questions:
+- What functionality is missing or broken in your implementation?
+- How does your implementation differs from the instructor solution?
+
+If your compiler passes all of the test cases, and correctly
+implements the same functionality as the instructor solution, then the
+self-review assignment is trivial (the answer to both questions is
+"none"), and the self-review assignment is essentially *free points*.
+
 ## In-Class Exercise
 
 An *in-class exercise* will be due every Friday at 11:59pm. The
@@ -258,24 +276,24 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 - Midterm exam: Friday, March 4, in class
 - Final exam: Monday, May 9, 10:30-11:30am, Votey 303
 
-| Week of      | Topic                                              | Assignment                     |
-| -----------: | -----------------------------------                | ------------                   |
-| Jan 17       | ASTs, Interpreters, x86 Assembly (no class Monday) |                                |
-| Jan 24       | Compiling Lmin                                     |                                |
-| Jan 31       | Compiling Lvar                                     | A1 Due (Monday)                |
-| Feb 7        | Register allocation                                |                                |
-| Feb 14       | Register allocation                                | A2 Due (Monday)                |
-| Feb 21       | Booleans & Typechecking (no class Monday)          |                                |
-| Feb 28       | Compiling Lif (midterm exam Friday)                | A3 Due (Monday)                |
-| Mar 7        | *Spring Break* (no class)                          |                                |
-| Mar 14       | Vectors & Garbage collection I                     |                                |
-| Mar 21       | Vectors & Garbage collection II                    | A4 Due (Monday)                |
-| Mar 28       | Compiling functions I                              |                                |
-| Apr 4        | Compiling functions II                             | A5 Due (Monday)                |
-| Apr 11       | Compiling first-class functions I                  | Project Proposals Due (Friday) |
-| Apr 18       | Compiling first-class functions II                 | A6 Due (Monday)                |
-| Apr 25       | Dynamic typing & objects                           | Project Milestone (Friday)     |
-| May 2        | Optimization; binary & instruction sets            | Final Project Due (Friday)     |
+| Week of      | Topic                                              | Assignment                                             |
+| -----------: | -----------------------------------                | -----------------------------------                    |
+| Jan 17       | ASTs, Interpreters, x86 Assembly (no class Monday) |                                                        |
+| Jan 24       | Compiling Lmin                                     |                                                        |
+| Jan 31       | Compiling Lvar                                     | A1 Due (Monday)                                        |
+| Feb 7        | Register allocation                                | A1 Review Due (Monday)                                 |
+| Feb 14       | Register allocation                                | A2 Due (Monday)                                        |
+| Feb 21       | Booleans & Typechecking (no class Monday)          | A2 Review Due (Monday)                                 |
+| Feb 28       | Compiling Lif (midterm exam Friday)                | A3 Due (Monday)                                        |
+| Mar 7        | *Spring Break* (no class)                          | A3 Review Due (Monday)                                 |
+| Mar 14       | Vectors & Garbage collection I                     |                                                        |
+| Mar 21       | Vectors & Garbage collection II                    | A4 Due (Monday)                                        |
+| Mar 28       | Compiling functions I                              | A4 Review Due (Monday)                                 |
+| Apr 4        | Compiling functions II                             | A5 Due (Monday)                                        |
+| Apr 11       | Compiling first-class functions I                  | A5 Review Due (Monday); Project Proposals Due (Friday) |
+| Apr 18       | Compiling first-class functions II                 | A6 Due (Monday)                                        |
+| Apr 25       | Dynamic typing & objects                           | A6 Review Due (Monday); Project Milestone (Friday)     |
+| May 2        | Optimization; binary & instruction sets            | Final Project Due (Friday)                             |
 
 
 # Final Projects
