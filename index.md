@@ -9,7 +9,7 @@ layout: default
 
 - **Lecture**: Monday, Wednesday, Friday, 10:50 - 11:40am, Votey Hall 303
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: TBA
+- **Office hours**: 9:30am - 10:30am, Monday and Friday, Innovation Hall E458
 
 ## Course Description
 
