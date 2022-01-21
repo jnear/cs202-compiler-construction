@@ -70,6 +70,7 @@ The primary textbook we will use for this course is:
 Other course resources:
 
 - **Announcements** will be posted on the course Blackboard
+- **Lecture Videos** are available [here](https://uvmoffice.sharepoint.com/:f:/s/Section_202201-14283/Et-jcuoetNhGnfHjtrn8HK4B3rIvL_JP0u-MElLP0JIusA?e=KfBDwN)
 - **Homework assignments**
   - Descriptions available in the list of assignments below
   - [Download assignment code on the course code repository](https://github.com/jnear/cs202-assignments)
