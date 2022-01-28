@@ -263,8 +263,9 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | 2           | [Compiling Lvar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) | Chapter 2     | Feb 14, 11:59pm  |
 | 3           | Register Allocation                                                                                       | Chapter 3     | Feb 28, 11:59pm  |
 | 4           | Booleans and Control Flow                                                                                 | Chapter 4     | Mar 21, 11:59pm  |
-| 5           | Vectors and Garbage Collection                                                                            | Chapter 5     | Apr 4, 11:59pm   |
-| 6           | Compiling Functions                                                                                       | Chapter 6     | Apr 18, 11:59pm  |
+| 5           | Loops & Dataflow analysis                                                                                 | Chapter 5     | Apr 4, 11:59pm   |
+| 6           | Vectors and Garbage Collection                                                                            | Chapter 6     | Apr 18, 11:59pm  |
+| 7           | Compiling Functions                                                                                       | Chapter 7     | -                |
 |             | Final Project                                                                                             |               | *See below*      |
 
 # Class Schedule
@@ -288,12 +289,12 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | Feb 21       | Booleans & Typechecking (no class Monday)          | A2 Review Due (Monday)                                 |
 | Feb 28       | Compiling Lif (midterm exam Friday)                | A3 Due (Monday)                                        |
 | Mar 7        | *Spring Break* (no class)                          | A3 Review Due (Monday)                                 |
-| Mar 14       | Vectors & Garbage collection I                     |                                                        |
-| Mar 21       | Vectors & Garbage collection II                    | A4 Due (Monday)                                        |
-| Mar 28       | Compiling functions I                              | A4 Review Due (Monday)                                 |
-| Apr 4        | Compiling functions II                             | A5 Due (Monday)                                        |
-| Apr 11       | Compiling first-class functions I                  | A5 Review Due (Monday); Project Proposals Due (Friday) |
-| Apr 18       | Compiling first-class functions II                 | A6 Due (Monday)                                        |
+| Mar 14       | Loops & Dataflow analysis I                        |                                                        |
+| Mar 21       | Loops & Dataflow analysis II                       | A4 Due (Monday)                                        |
+| Mar 28       | Vectors & Garbage collection I                     | A4 Review Due (Monday)                                 |
+| Apr 4        | Vectors & Garbage collection II                    | A5 Due (Monday)                                        |
+| Apr 11       | Compiling functions                                | A5 Review Due (Monday); Project Proposals Due (Friday) |
+| Apr 18       | Compiling first-class functions                    | A6 Due (Monday)                                        |
 | Apr 25       | Dynamic typing & objects                           | A6 Review Due (Monday); Project Milestone (Friday)     |
 | May 2        | Optimization; binary & instruction sets            | Final Project Due (Friday)                             |
 
