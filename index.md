@@ -260,7 +260,7 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | Assignment  | Topics Covered                                                                                            | Text Chapter  | Due Date         |
 | ----------: | ---------------------------------                                                                         | ------------- | ---------------- |
 | 1           | [Compiling Lmin to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md) | Chapter 1 & 2 | Jan 31, 11:59pm  |
-| 2           | Compiling Lvar to x86                                                                                     | Chapter 2     | Feb 14, 11:59pm  |
+| 2           | [Compiling Lvar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md) | Chapter 2     | Feb 14, 11:59pm  |
 | 3           | Register Allocation                                                                                       | Chapter 3     | Feb 28, 11:59pm  |
 | 4           | Booleans and Control Flow                                                                                 | Chapter 4     | Mar 21, 11:59pm  |
 | 5           | Vectors and Garbage Collection                                                                            | Chapter 5     | Apr 4, 11:59pm   |
