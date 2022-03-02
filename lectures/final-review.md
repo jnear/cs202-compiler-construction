@@ -50,6 +50,69 @@
 
 # Sample Questions
 
+## Control Flow Graphs
+
+Consider the following pseudo-x86 program compiled from R2, with 4
+basic blocks.
+
+    "start":
+            [ CmpqE ( IntXE 6 ) ( IntXE 5 )
+            , JmpIfE CCe "label4" 
+            , JmpE "label3" 
+            ] 
+    
+    "label3":
+            [ MovqE ( IntXE 8 ) ( VarXE "x1" )
+            , JmpE "label2" 
+            ] 
+    
+    "label4":
+            [ MovqE ( IntXE 7 ) ( VarXE "x1" )
+            , JmpE "label2" 
+            ] 
+    
+    "label2":
+            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )
+            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )
+            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )
+            , RetqE
+            ] 
+    
+1. Draw the control flow graph for this program (without
+   instructions - only labels required) (i.e. the "jumps-to graph"
+   described in class).
+
+2. In what order should liveness analysis be performed on the basic
+   blocks of this program?
+
+3. Perform the liveness analysis for this program, filling in the
+   live-after sets for each instruction and the live-before sets for
+   each basic block.
+
+Program:
+
+    "start":  LIVE-BEFORE: {               }
+            [ CmpqE ( IntXE 6 ) ( IntXE 5 )           {           }
+            , JmpIfE CCe "label4"                     {           }
+            , JmpE "label3"                           {           }
+            ] 
+    
+    "label3":  LIVE-BEFORE: {               }
+            [ MovqE ( IntXE 8 ) ( VarXE "x1" )        {           }
+            , JmpE "label2"                           {           }
+            ] 
+    
+    "label4":  LIVE-BEFORE: {               }
+            [ MovqE ( IntXE 7 ) ( VarXE "x1" )        {           }
+            , JmpE "label2"                           {           }
+            ] 
+    
+    "label2":  LIVE-BEFORE: {               }
+            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )   {           }
+            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )     {           }
+            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )   {           }
+            , RetqE
+            ] 
 
 ## Heap allocation
 
