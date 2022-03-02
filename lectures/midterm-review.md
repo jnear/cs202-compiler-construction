@@ -26,6 +26,19 @@
 
 # Sample Questions
 
+## Compiler Passes
+
+For each of the following passes, what is its purpose? What property
+is true of its output?
+
+- `remove-complex-opera`
+- `select-instructions`
+- `assign-homes` (A2)
+- `uncover-live` (A3)
+- `build-interference` (A3)
+- `allocate-registers` (A3)
+- `patch-instructions`
+- `print-x86`
 
 ## Removing Complex Operands
 
