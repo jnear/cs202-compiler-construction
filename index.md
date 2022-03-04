@@ -288,9 +288,9 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 | Feb 14       | Register allocation                                | A2 Due (Monday)                                        |
 | Feb 21       | Booleans & Typechecking (no class Monday)          | A2 Review Due (Monday)                                 |
 | Feb 28       | Compiling Lif (midterm exam Friday)                | A3 Due (Monday)                                        |
-| Mar 7        | *Spring Break* (no class)                          | A3 Review Due (Monday)                                 |
-| Mar 14       | Loops & Dataflow analysis I                        |                                                        |
-| Mar 21       | Loops & Dataflow analysis II                       | A4 Due (Monday)                                        |
+| Mar 7        | *Spring Break* (no class)                          |                                                        |
+| Mar 14       | Compiling Lif                                      | A3 Review Due (Monday)                                 |
+| Mar 21       | Loops & Dataflow analysis                          | A4 Due (Monday)                                        |
 | Mar 28       | Vectors & Garbage collection I                     | A4 Review Due (Monday)                                 |
 | Apr 4        | Vectors & Garbage collection II                    | A5 Due (Monday)                                        |
 | Apr 11       | Compiling functions                                | A5 Review Due (Monday); Project Proposals Due (Friday) |
