@@ -301,65 +301,74 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 
 # Final Projects
 
-**Note: this section has not yet been updated for Spring 2022.**
-
 ## Suggested Project Ideas
 
-For each of these project ideas, a parser and lecture video will be
-provided.
+Each of these project ideas will be discussed in lecture, and textbook
+chapters are available for some of them.
 
-### Records (Simple Object System)
+### DataClasses (Simple Object System)
 
-Extend the vectors present in RFun to *records* with *named
-fields*. Record types are sufficient to implement a simple object
-system, in which an object's methods are stored as functions in record
-fields. There is no chapter in the textbook describing this extension,
-but a parser and compiler template will be provided, as well as a
-lecture video.
+Extend the tuples present in Ltup to *records* with *named fields*,
+exposed as classes in the language. There is no chapter in the
+textbook describing this extension, but we'll discuss it in class.
 
 Example:
 
 ```
-record Point {
-  add: (Point, Point) -> Point,
-  x: Integer,
-  y: Integer
-}
+class Point:
+  x: int
+  y: int
 
-def addPoint(self: Point, other: Point): Point = {
-  Point(self.add, self.x + other.x, other.x + other.y)
-}
+def add_point(self: Point, other: Point) -> Point:
+    return Point(self.x + other.x, self.y + other.y)
 
-let p1 = Point(addPoint, 1, 2) in
-let p2 = Point(addPoint, 3, 4) in
-p1.add(p1, p2)
+p1 = Point(1, 2)
+p2 = Point(3, 4)
+p3 = add_point(p1, p2)
+```
+
+### Functions
+
+Extend the Ltup language to support function definitions. We will
+discuss this option in class, and the textbook describes the changes
+in Chapter 7.
+
+```
+def fact(n: int) -> int:
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * fact(n-1)
+
+print(fact(5))
 ```
 
 ### Anonymous (Lexically-scoped) Functions
 
-Extend the RFun language to support *anonmyous functions* (i.e. "lambda"
-functions), as described in chapter 7 of the textbook. Your anonymous
-functions should be lexically scoped. A parser, compiler template, and
-lecture video will be provided.
+Extend the Ltup language to support *anonmyous functions* (i.e.
+"lambda" functions). We will discuss this option in class, and the
+textbook describes the changes in Chapter 8.
 
 Example:
 
 ```
-let x = 5 in
-let f = lambda y: Integer -> x + y
-in f(6)
+x = 5
+f: Callable[[int], int] = lambda y -> x + y
+print(f(6))
 ```
 
 ### Dynamic Typing
 
-Extend the RFun language to support *dynamic typing* as described in
-chapter 8 of the textbook. A parser, compiler template, and lecture
-video will be provided.
+Extend the Ltup language to support *dynamic typing* as described in
+Chapter 9 of the textbook.
 
 Example:
 
 ```
-42 == (if 5 == 5 then 42 else True)
+if 5 == 6:
+    x = True
+else:
+    x = 42
 ```
 
 ## Other Project Ideas
@@ -411,7 +420,7 @@ The goal of the final project is for you to design and implement your own compil
 
 ## Schedule & Grading
 
-The final project is worth 14% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
+The final project is worth 10% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
 | Deliverable                | Due Date                  | Grade Percent | Turn In    |
 | -----------------------:   | -------------------       | ------------- | --------   |
@@ -419,9 +428,4 @@ The final project is worth 14% of your final grade. The schedule for final proje
 | Project Milestone          | Friday, Apr 29 at 11:59pm | 10%           | Blackboard |
 | Implementation & README    | Monday, May 6 at 11:59pm  | 50%           | Blackboard |
 | Project Presentation Video | Monday, May 6 at 11:59pm  | 30%           | Blackboard |
-
-
-
-
-
 
