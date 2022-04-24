@@ -306,11 +306,13 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 Each of these project ideas will be discussed in lecture, and textbook
 chapters are available for some of them.
 
-### DataClasses (Simple Object System)
+### Dataclasses (Simple Object System)
 
 Extend the tuples present in Ltup to *records* with *named fields*,
 exposed as classes in the language. There is no chapter in the
 textbook describing this extension, but we'll discuss it in class.
+
+**An online compiler is available [here](https://jnear.w3.uvm.edu/cs202/compiler-dataclasses.php).**
 
 Example:
 
@@ -332,6 +334,8 @@ p3 = add_point(p1, p2)
 Extend the Ltup language to support function definitions. We will
 discuss this option in class, and the textbook describes the changes
 in Chapter 7.
+
+**An online compiler is available [here](https://jnear.w3.uvm.edu/cs202/compiler-functions.php).**
 
 ```
 def fact(n: int) -> int:
