@@ -430,6 +430,6 @@ The final project is worth 10% of your final grade. The schedule for final proje
 | -----------------------:   | -------------------       | ------------- | --------   |
 | Project Proposal           | Friday, Apr 15 at 11:59pm | 10%           | Blackboard |
 | Project Milestone          | Friday, Apr 29 at 11:59pm | 10%           | Blackboard |
-| Implementation & README    | Monday, May 6 at 11:59pm  | 50%           | Blackboard |
-| Project Presentation Video | Monday, May 6 at 11:59pm  | 30%           | Blackboard |
+| Implementation & README    | Friday, May 6 at 11:59pm  | 50%           | Blackboard |
+| Project Presentation Video | Friday, May 6 at 11:59pm  | 30%           | Blackboard |
 
