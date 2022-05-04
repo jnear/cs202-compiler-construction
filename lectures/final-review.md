@@ -1,15 +1,25 @@
-# Final Review (Spring 2020)
+# Final Review (Spring 2022)
 
 # Format
 
 - Same question format as the midterm
-- Take-home format, with 6 days to complete
-- Liberal partial credit
+- Open notes: bring as much printed material as you want
+- Closed computers / phones / everything else
+- You'll be expected to be familiar with:
+  - Languages (and IRs) used in our compilers
+  - Compiler passes in our assignments
+- Should take only 30-40 minutes
+- If you successfully completed the homework assignments, the questions should be easy
+- Liberal partial credit applied (especially when you're asked to write code)
 
 # Major topics
 
+- Loops and dataflow analysis
+  - While loops & typechecking of loops
+  - Cyclic control flow graphs and challenges of liveness analysis
+  - Fixpoint-based dataflow analysis
 - Heap allocation
-  - Vectors
+  - Tuples
   - Representation and tagging
   - Root stack
   - Garbage collection
@@ -20,7 +30,7 @@
   - Functions as values
 - Anonymous functions (lambda)
   - Static vs dynamic scope
-  - Lambda lifting
+  - Lifting lambdas to top-level functions
   - Closure conversion
 - Dynamic typing
   - Definitions
@@ -29,8 +39,8 @@
   - Representation (tagging)
   - Runtime checks & generating x86
 - Objects
-  - Method tables and dynamic dispatch
-  - Representation with vectors
+  - Method tables
+  - Representation with tuples
 - Optimization
   - Local
     - Partial evaluation
@@ -50,37 +60,25 @@
 
 # Sample Questions
 
-## Control Flow Graphs
+## Cyclic Control Flow Graphs
 
-Consider the following pseudo-x86 program compiled from R2, with 4
-basic blocks.
+Consider the following pseudo-x86 program with 4 basic blocks.
 
-    "start":
-            [ CmpqE ( IntXE 6 ) ( IntXE 5 )
-            , JmpIfE CCe "label4" 
-            , JmpE "label3" 
-            ] 
-    
-    "label3":
-            [ MovqE ( IntXE 8 ) ( VarXE "x1" )
-            , JmpE "label2" 
-            ] 
-    
-    "label4":
-            [ MovqE ( IntXE 7 ) ( VarXE "x1" )
-            , JmpE "label2" 
-            ] 
-    
-    "label2":
-            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )
-            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )
-            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )
-            , RetqE
-            ] 
+    start:
+      movq $0, x
+      jmp label_1
+    label_1:
+      cmpq $10, x
+      jl label_2
+      jmp label_3
+    label_2:
+      addq $1, x
+      jmp label_1
+    label_3:
+      jmp conclusion
     
 1. Draw the control flow graph for this program (without
-   instructions - only labels required) (i.e. the "jumps-to graph"
-   described in class).
+   instructions - only labels required).
 
 2. In what order should liveness analysis be performed on the basic
    blocks of this program?
@@ -89,44 +87,17 @@ basic blocks.
    live-after sets for each instruction and the live-before sets for
    each basic block.
 
-Program:
-
-    "start":  LIVE-BEFORE: {               }
-            [ CmpqE ( IntXE 6 ) ( IntXE 5 )           {           }
-            , JmpIfE CCe "label4"                     {           }
-            , JmpE "label3"                           {           }
-            ] 
-    
-    "label3":  LIVE-BEFORE: {               }
-            [ MovqE ( IntXE 8 ) ( VarXE "x1" )        {           }
-            , JmpE "label2"                           {           }
-            ] 
-    
-    "label4":  LIVE-BEFORE: {               }
-            [ MovqE ( IntXE 7 ) ( VarXE "x1" )        {           }
-            , JmpE "label2"                           {           }
-            ] 
-    
-    "label2":  LIVE-BEFORE: {               }
-            [ MovqE ( VarXE "x1" ) ( VarXE "tmp5" )   {           }
-            , AddqE ( IntXE 10 ) ( VarXE "tmp5" )     {           }
-            , MovqE ( VarXE "tmp5" ) ( RegE "rax" )   {           }
-            , RetqE
-            ] 
-
 ## Heap allocation
 
 Consider the following program:
 
-    let x = 5 in
-      let y = 6 in
-        let v1 = vector(x, y) in
-          let v2 = vector(v1, x, v1) in
-            vector(v1, v2)
+    x = (5, 6)
+    y = (x, 5, x)
+    z = (x, y)
 
 1. Assuming registers are *not* used, which variables will be placed on the stack, and which variables will be placed on the root stack?
 
-2. Draw the tags for the vectors `v1` and `v2`.
+2. Draw the tags for the tuples `x`, `y`, and `z`.
 
 3. Draw the root stack and heap after this program runs, assuming the initial heap size is large enough that no garbage collection is needed.
 
@@ -138,139 +109,107 @@ Consider the following heap state (root stack and from-space):
 
 ## Functions
 
-5. Circle the *tail calls* in the following program.
-
-```
-    def fact(x: Integer): Integer = {
-      if x == 0
-      then 1
-      else times(x, fact(x + -1), 0)
-    }
-
-    def times(x: Integer, y: Integer): Integer = {
-      if x == 0
-      then 0
-      else y + times(x + -1, y)
-    }
-
-    fact(5)
-```
-
-Consider the following program in R4:
-
-```
-    def fn(a : Integer,
-           b : Integer,
-           c : Integer,
-           d : Integer,
-           e : Integer,
-           f : Integer,
-           g : Integer,
-           h : Integer) : Integer
-      a + b + c + d + e + f + g + h)
-
-    fn(1,2,3,4,5,6,7,8)
-```
-
-6. Write the output of the `limit-functions` pass on this program.
 
 Consider the following x86 program.
 
 ```
-    add1start:
-      movq %rcx, %rax
-      addq $1, %rax
-      jmp add1conclusion
-    add1:
-      pushq %rbp
-      movq %rsp, rbp
-      jmp add1start
-    add1conclusion:
-      popq %rbp
-      retq
-    
-    mainstart:
-      leaq add1(%rip), %rdx
-      movq $5, %rcx
-      movq %rdx, %rax
-      popq %rbp
-      jmp *%rax
-    
-    .globl main
-    main:
-      pushq %rbp
-      movq %rsp, %rbp
-      jmp mainstart
-    mainconclusion:
-      popq %rbp
-      retq
+add1_main:
+  pushq %rbp
+  movq %rsp, %rbp
+  pushq %rbx
+  pushq %r12
+  pushq %r13
+  pushq %r14
+  subq $0, %rsp
+
+  jmp add1_start
+add1_start:
+  movq %rdi, %r12
+  movq %r12, %r12
+  addq $1, %r12
+  movq %r12, %rax
+  jmp add1_conclusion
+add1_conclusion:
+  addq $0, %rsp
+  popq %r14
+  popq %r13
+  popq %r12
+  popq %rbx
+  popq %rbp
+  retq
+
+  .globl main
+main:
+  pushq %rbp
+  movq %rsp, %rbp
+  pushq %rbx
+  pushq %r12
+  pushq %r13
+  pushq %r14
+  subq $0, %rsp
+  movq $16384, %rdi
+  movq $16, %rsi
+  callq initialize
+  movq rootstack_begin(%rip), %r15
+
+  jmp main_start
+main_start:
+  movq $5, %rdi
+  callq add1_main
+  movq %rax, %r12
+  movq %r12, %rdi
+  callq print_int
+  jmp main_conclusion
+main_conclusion:
+  movq $0, %rax
+  addq $0, %rsp
+  popq %r14
+  popq %r13
+  popq %r12
+  popq %rbx
+  popq %rbp
+  retq
 ```
 
-7. Write the original R4 program for which this x86 program is (roughly) the output of our compiler.
+7. Write the original Python program for which this x86 program is (roughly) the output of our compiler.
 
 
 ## Anonymous functions (lambda)
 
-8. What are the free variables of the lambda expression `lambda (x: Integer) -> x + y`?
+8. What are the free variables of the lambda expression `lambda x: -> x + y`?
 
 Consider the following program:
 
 ```
-    let y = 10 in
-      let f = (lambda (x: Integer) -> y) in
-        let y = 20 in
-          f(5)
+y = 10
+f = lambda x: y
+y = 20
+print(f(5))
 ```
 
-9. What is the value of this program under *dynamic scope*?
+9. What value is printed under *dynamic scope*?
 
-10. What is the value of this program under *lexical scope*?
+10. What value is printed program under *lexical scope*?
 
-11. Perform closure conversion to transform this program into an R4 program (you may omit type annotations). Your transformed code should implement lexical scope.
+11. Perform closure conversion to transform this program into a Lfun program (you may omit type annotations). Your transformed code should implement lexical scope.
 
 ## Dynamic typing
 
 Consider the following program:
 
 ```
-    if True
-    then 1 + 2
-    else False + 3
+if True:
+  x = 1 + 2
+else:
+  x = False + 3
 ```
 
-12. Does this program have a *static* type, according to our R4 typechecker?
+12. Does this program have a *static* type, according to our typechecker?
 
 13. Does running this program result in a *run-time* type error?
 
-14. Convert this program to one which has a static type, according to the R6 typechecker. Use `inject` and `project`.
+14. Convert this program to one which has a static type, according to the Lany typechecker. Use `inject` and `project`.
 
-```
-    if True
-    then 1 + 2
-    else False + 3
-```
-
-15. What R6 program corresponds to the following assembly code?
-
-```
-    movq $1, %rdx
-    saql $3, %rdx
-    orq  $4, %rdx
-```
-
-16. What R6 program corresponds to the following assembly code? Assume that variable `x` of type `Any` has been placed in `%rcx`.
-
-```
-    block1:
-      andq $7, %rcx
-      cmpq $1, %rcx
-      je block2
-      movq $-1, %rdi
-      callq exit
-    block2:
-      movq %rcx, %rbx
-      sarq $3, %rbx
-```
 
 ## How code gets executed
 
