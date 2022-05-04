@@ -26,7 +26,6 @@
 - Functions
   - Calling convention
   - Limiting number of arguments
-  - Tail-call optimization
   - Functions as values
 - Anonymous functions (lambda)
   - Static vs dynamic scope
