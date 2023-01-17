@@ -19,7 +19,7 @@ Lmin ::= print(int)
 
 **Abstract Syntax:**
 ```
-Lmin ::= Program([Print(Constant(i))])
+Lmin ::= Program([Print(Constant(int))])
 ```
 
 An online compiler for this assignment is available
