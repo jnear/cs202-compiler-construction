@@ -6,7 +6,7 @@ repository](https://github.com/jnear/cs202-assignments) and submit
 your `compiler.py` file on the course Blackboard under "Assignment
 1".**
 
-**Due: Monday, Jan 31, 11:59pm**
+**Due: Monday, Jan 23, 11:59pm**
 
 Complete `compiler.py` so that it implements a compiler from the
 `Lmin` language to x86 assembly. The required subset includes programs
