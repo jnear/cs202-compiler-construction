@@ -8,13 +8,18 @@ your `compiler.py` file on the course Blackboard under "Assignment
 
 **Due: Monday, Jan 31, 11:59pm**
 
-1. Complete `compiler.py` so that it implements a compiler from the
-   `Lmin` language to x86 assembly. The required subset includes
-   programs that print a single integer, as described by the concrete
-   syntax grammar below.
-   
+Complete `compiler.py` so that it implements a compiler from the
+`Lmin` language to x86 assembly. The required subset includes programs
+that print a single integer, as described by the grammars below.
+
+**Concrete Syntax:**
 ```
 Lmin ::= print(int)
+```
+
+**Abstract Syntax:**
+```
+Lmin ::= Program([Print(Constant(i))])
 ```
 
 An online compiler for this assignment is available
