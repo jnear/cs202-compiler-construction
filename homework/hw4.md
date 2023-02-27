@@ -31,3 +31,23 @@ LIf  ::= Program(Stmts)
 
 An online compiler for this assignment is available
 [here](http://jnear.w3.uvm.edu/cs202/compiler-a4.php).
+
+**Challenge Exercise:**
+
+Implement the `explicate_pred` function as described in the textbook,
+to optimize conditionals and avoid the use of the `set` and `movzbq`
+instructions when possible:
+
+1. Modify the RCO pass to allow conditions to be non-atomic expressions
+2. Implement `explicate_pred` to avoid creating temporary variables when possible
+3. Modify select-instructions to perform conditional jumps directly when possible
+
+Your solution should avoid the use of the `set` and `movzbq`
+instructions for programs like this:
+
+```
+if 5 == 6:
+    print(0)
+else:
+    print(42)
+```
