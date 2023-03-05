@@ -1,4 +1,4 @@
-# Midterm Review (Spring 2022)
+# Midterm Review (Spring 2023)
 
 # Format
 
@@ -16,13 +16,14 @@
 - Atomicity & removing complex operands (Remove-complex-opera*)
 - x86 programming
 - Translation to x86 (Select-instructions)
-- Passes of the A2 / A3 compiler
+- Passes of the A2 / A3 / A4 compiler
 - Stack allocation
 - Register allocation
   - Liveness analysis
   - Interference graph
   - Allocation by graph coloring
 - Typechecking
+- Control flow graphs and continuations
 
 # Sample Questions
 
@@ -34,9 +35,9 @@ is true of its output?
 - `remove-complex-opera`
 - `select-instructions`
 - `assign-homes` (A2)
-- `uncover-live` (A3)
-- `build-interference` (A3)
 - `allocate-registers` (A3)
+- `typecheck` (A4)
+- `explicate-control` (A4)
 - `patch-instructions`
 - `print-x86`
 
@@ -127,4 +128,18 @@ the program containing a type error.
         x = 5
     else:
         x = True
+
+## Control Flow and Control Flow Graphs
+
+For the following program, draw the control flow graph in Cif output
+by the *explicate-control* pass.
+
+    if 3 > 4:
+        if 4 < 5:
+            x = 1
+        else:
+            x = 2
+    else:
+        x = 3
+
 
