@@ -211,7 +211,7 @@ complete.
 ## Exams
 
 There will be two exams: a midterm and a final. You will be allowed
-one page of notes for each exam. See the schedule below for the dates.
+unlimited pages of notes for each exam. See the schedule below for the dates.
 
 ## Final Projects
 
