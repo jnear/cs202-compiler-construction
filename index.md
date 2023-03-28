@@ -222,6 +222,8 @@ test cases demonstrating its use. Final projects may be completed in
 teams of up to 3 students; larger teams will be expected to complete
 more ambitious projects.
 
+[Click here for more information on final projects](https://jnear.github.io/cs202-compiler-construction/projects).
+
 ## Graduate Students
 
 Graduate students will be expected to complete additional requirements
