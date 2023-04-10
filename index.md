@@ -262,11 +262,11 @@ Integrity](https://www.uvm.edu/policies/student/acadintegrity.pdf).
 |-----------:|--------------------------------------------------------------------------------------------------------------------|---------------|-----------------|
 |          1 | [Compiling Lmin to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw1.md)          | Chapter 1 & 2 | Jan 23, 11:59pm |
 |          2 | [Compiling Lvar to x86](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw2.md)          | Chapter 2     | Feb 6, 11:59pm  |
-|          3 | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)            | Chapter 3     | Feb 21, 11:59pm |
-|          4 | [Booleans and Control Flow](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 4     | Mar 6, 11:59pm  |
-|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md)      | Chapter 5     | Mar 27, 11:59pm |
-|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) | Chapter 6     | Apr 10, 11:59pm |
-|          7 | Compiling Functions                                                                                                | Chapter 7     | Apr 24, 11:59pm |
+|          3 | [Register Allocation](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw3.md)            | Chapter 4     | Feb 21, 11:59pm |
+|          4 | [Booleans and Control Flow](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw4.md)      | Chapter 5     | Mar 6, 11:59pm  |
+|          5 | [Loops & Dataflow analysis](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw5.md)      | Chapter 6     | Mar 27, 11:59pm |
+|          6 | [Vectors and Garbage Collection](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw6.md) | Chapter 7     | Apr 10, 11:59pm |
+|          7 | [Compiling Functions](https://github.com/jnear/cs202-compiler-construction/blob/master/homework/hw7.md)            | Chapter 8     | Apr 24, 11:59pm |
 |            | Final Project                                                                                                      |               | *See below*     |
 
 # Class Schedule
