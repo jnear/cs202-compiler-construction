@@ -1,4 +1,4 @@
-# Final Projects
+# Final Projects (Spring 2023)
 
 ## Suggested Project Ideas
 
@@ -7,11 +7,11 @@ chapters are available for some of them.
 
 ### Dataclasses (Simple Object System)
 
-Extend the tuples present in Ltup to *records* with *named fields*,
+Extend the tuples present in Lfun to *records* with *named fields*,
 exposed as classes in the language. There is no chapter in the
 textbook describing this extension, but we'll discuss it in class.
 
-**An online compiler is available [here](https://jnear.w3.uvm.edu/cs202/compiler-dataclasses.php).**
+<!-- **An online compiler is available [here](https://jnear.w3.uvm.edu/cs202/compiler-dataclasses.php).** -->
 
 Example:
 
@@ -30,7 +30,7 @@ p3 = add_point(p1, p2)
 
 <!-- ### Functions -->
 
-<!-- Extend the Ltup language to support function definitions. We will -->
+<!-- Extend the Lfun language to support function definitions. We will -->
 <!-- discuss this option in class, and the textbook describes the changes -->
 <!-- in Chapter 7. -->
 
@@ -48,9 +48,9 @@ p3 = add_point(p1, p2)
 
 ### Anonymous (Lexically-scoped) Functions
 
-Extend the Ltup language to support *anonmyous functions* (i.e.
+Extend the Lfun language to support *anonmyous functions* (i.e.
 "lambda" functions). We will discuss this option in class, and the
-textbook describes the changes in Chapter 8.
+textbook describes the changes in Chapter 9.
 
 Example:
 
@@ -62,7 +62,7 @@ print(f(6))
 
 ### Dynamic Typing
 
-Extend the Ltup language to support *dynamic typing* as described in
+Extend the Lfun language to support *dynamic typing* as described in
 Chapter 9 of the textbook.
 
 Example:
@@ -76,20 +76,18 @@ else:
 
 ## Other Project Ideas
 
-  * anonymous functions
   * cons lists
     * with vectors
     * improved tags
     * datatypes / pattern matching
-  * vectors with non-statically-known indexing (runtime checking)
+  * arrays with non-statically-known indexing (runtime checking)
   * objects
-    * records with named fields (from vectors)
+    * records with named fields (from tuples)
     * functions in fields (methods w/ dynamic dispatch)
     * classes & inheritance
 
 More complicated:
 
-  * loops and loop optimization
   * lazy evaluation
   * procedure inlining
   * continuations, exceptions
@@ -125,11 +123,11 @@ The goal of the final project is for you to design and implement your own compil
 
 The final project is worth 10% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
-| Deliverable                | Due Date                 | Grade Percent | Turn In    |
-| -----------------------:   | -------------------      | ------------- | --------   |
-| Project Proposal           | Friday, Apr 7 at 11:59pm | 10%           | Blackboard |
-| Project Milestone          | Monday, May 1 at 11:59pm | 10%           | Blackboard |
-| Implementation & README    | Monday, May 8 at 11:59pm | 50%           | Blackboard |
-| Project Presentation Video | Monday, May 8 at 11:59pm | 30%           | Blackboard |
+|                Deliverable | Due Date                  | Grade Percent | Turn In    |
+|---------------------------:|---------------------------|---------------|------------|
+|           Project Proposal | Monday, Apr 17 at 11:59pm | 10%           | Blackboard |
+|          Project Milestone | Monday, May 1 at 11:59pm  | 10%           | Blackboard |
+|    Implementation & README | Monday, May 8 at 11:59pm  | 50%           | Blackboard |
+| Project Presentation Video | Monday, May 8 at 11:59pm  | 30%           | Blackboard |
 
 
