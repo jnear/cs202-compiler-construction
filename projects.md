@@ -48,16 +48,22 @@ p3 = add_point(p1, p2)
 
 ### Anonymous (Lexically-scoped) Functions
 
-Extend the Lfun language to support *anonmyous functions* (i.e.
-"lambda" functions). We will discuss this option in class, and the
-textbook describes the changes in Chapter 9.
+Extend the Lfun language to support *lexically-scoped functions* at
+the top level. We will discuss this option in class, and the textbook
+describes the changes in Chapter 9. Support for `lambda` expressions
+is optional, and more challenging due to changes in the parser.
 
 Example:
 
 ```
 x = 5
-f: Callable[[int], int] = lambda y -> x + y
-print(f(6))
+
+def f() -> int:
+    return x
+
+x = 6
+
+print(f())
 ```
 
 ### Dynamic Typing
