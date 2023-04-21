@@ -1,4 +1,4 @@
-# Final Review (Spring 2022)
+# Final Review (Spring 2023)
 
 # Format
 
@@ -9,7 +9,7 @@
   - Languages (and IRs) used in our compilers
   - Compiler passes in our assignments
 - Should take only 30-40 minutes
-- If you successfully completed the homework assignments, the questions should be easy
+- If you successfully completed the homework assignments and exercises, the questions should be easy
 - Liberal partial credit applied (especially when you're asked to write code)
 
 # Major topics
@@ -27,20 +27,20 @@
   - Calling convention
   - Limiting number of arguments
   - Functions as values
-- Anonymous functions (lambda)
-  - Static vs dynamic scope
+- Objects (only conceptual knowledge expected)
+  - Method tables
+  - Representation with tuples
+- Lexically scoped functions (including lambda) (only conceptual knowledge expected)
+  - Static/lexical vs dynamic scope
   - Lifting lambdas to top-level functions
   - Closure conversion
-- Dynamic typing
+- Dynamic typing (only conceptual knowledge expected)
   - Definitions
   - "Any" type and typechecking
   - Inject / project
   - Representation (tagging)
   - Runtime checks & generating x86
-- Objects
-  - Method tables
-  - Representation with tuples
-- Optimization
+- Optimization (only conceptual knowledge expected)
   - Local
     - Partial evaluation
     - Constant propagation
